@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jinxiang Xie"
-description              : "Jinxiang Xie's academic homepage "
+description              : "3rd-year undergraduate student majoring in Information and Computing Science at Beijing Jiaotong University. Focusing on NLP, LLMs and Data Science."
 repository               : "jxtse/jxtse.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "jxtse"
+  github           : "jxtse"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "jinxiang-xie"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
