@@ -17,9 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 3rd-year undergraduate student majoring in Information and Computing Science at Beijing Jiaotong University. I previously worked with <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> in the Summer Workshop at the National University of Singapore. Now I am also a research intern at Peking University under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Wan Xiaojun
+I'm a 3rd-year undergraduate student majoring in Information and Computing Science at Beijing Jiaotong University. I previously worked with <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> in the Summer Workshop at the National University of Singapore. Now I am also a research intern at Peking University under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Wan Xiaojun.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+As a student with a multidisciplinary background in Mathematics and Computer Science, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
+
+I am actively seeking MPhil or PhD programs where I can use my expertise for technological advancement, integrating AI into real-world applications.
+
+<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
