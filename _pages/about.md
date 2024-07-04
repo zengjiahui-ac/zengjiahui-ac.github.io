@@ -65,16 +65,12 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 
 # 📚 Blogs
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic01.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLMs: Cutting-Edge Technology and Future Applications](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
 
 My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China, which featured people from top research institutions.
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
 [Prompt Engineering: How To Ask LLMS Better](https://sspai.com/post/82322)
 
