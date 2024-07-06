@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 3rd-year undergraduate student majoring in Information and Computing Science at Beijing Jiaotong University. I previously worked with <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> in the Summer Workshop at **National University of Singapore**. Now I am a research intern at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
+I'm a 3rd-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I previously worked with <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> in the Summer Workshop at **National University of Singapore**. Now I am a research intern at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
 
 As a student with a multidisciplinary background in Mathematics and Artificial Intelligence, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
 
