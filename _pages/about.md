@@ -23,6 +23,8 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 I am actively seeking MPhil or PhD programs where I can use my expertise for technological advancement, integrating AI into real-world applications.
 
+<a href="https://1drv.ms/b/s!AoP3c6HrNVOLgacCzg33i-YQDyD6mA?e=qgjgtD">My CV</a> | <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgaNrUBAF7i17VAoOdQ?e=bH36rN">My Transcript</a>
+
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
@@ -39,7 +41,7 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 
 **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
 
-[**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgaY0NkVPDlKkig_m1A?e=H3dw3y">Link to paper</a>
 - Proposed a novel dynamic weighting evaluation method using automated analytic hierarchy process.
 - Integrated LLMs to simulate human scoring to make models closer to human feedback, labeled a dataset with more than
 1,000 scoring.
