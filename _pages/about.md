@@ -29,7 +29,7 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 
 
 # 🔥 News
-- *2024.07*: &nbsp;🎉🎉 I will visit the University of Tokyo in September under the guidance of <a href="https://ireneli.eu/">Prof. Irene Li</a>.
+-*2024.07*: &nbsp;🎉🎉 I will visit the University of Tokyo in September under the guidance of <a href="https://ireneli.eu/">Prof. Irene Li</a>.-
 - *2024.07*: &nbsp;🎉🎉 New homepage launched.
 
 # 📝 Publications 
