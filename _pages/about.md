@@ -28,9 +28,9 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-# 🔥 News
+<!-- # 🔥 News
 -*2024.07*: &nbsp;🎉🎉 I will visit the University of Tokyo in September under the guidance of <a href="https://ireneli.eu/">Prof. Irene Li</a>.-
-- *2024.07*: &nbsp;🎉🎉 New homepage launched.
+- *2024.07*: &nbsp;🎉🎉 New homepage launched. -->
 
 # 📝 Publications 
 
