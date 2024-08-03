@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 3rd-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I previously worked with <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> in the Summer Workshop at **National University of Singapore**. Now I am a research intern at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
+I'm a 3rd-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Now I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+ Previously, I worked as research intern at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
 
 As a student with a multidisciplinary background in Mathematics and Artificial Intelligence, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
 
@@ -28,9 +29,9 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-<!-- # 🔥 News
--*2024.07*: &nbsp;🎉🎉 I will visit the University of Tokyo in September under the guidance of <a href="https://ireneli.eu/">Prof. Irene Li</a>.-
-- *2024.07*: &nbsp;🎉🎉 New homepage launched. -->
+# 🔥 News
+-*2024.08*: &nbsp;🎉🎉 I will join Microsoft as Researcher Intern in August under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+
 
 # 📝 Publications 
 
@@ -63,7 +64,9 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, Peking University, Beijing, China.
+- Summer Workshop Student, *2023.05 - 2023.07*, School of Computer, National University of Singapore, Singapore. (Supervisor: <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> )
+- Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, Peking University, Beijing, China. (Supervisor: <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>)
+- Research Intern, *2024.08 - Present*, DKI Group, Microsoft, Beijing, China. (Supervisor: Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>)
 
 # 📚 Blogs
 
