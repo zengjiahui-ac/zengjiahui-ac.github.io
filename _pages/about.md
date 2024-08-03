@@ -64,7 +64,7 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 # 💻 Internships
 - Summer Workshop Student, *2023.05 - 2023.07*, School of Computer, National University of Singapore, Singapore.
-  (Supervisor: <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> )
+  (Supervisor: <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and <a href="https://www.comp.nus.edu.sg/cs/people/boyd/">Prof. Boyd Anderson</a> )
 - Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, Peking University, Beijing, China. 
   (Supervisor: <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>)
 - Research Intern, *2024.08 - Present*, DKI Group, Microsoft, Beijing, China. 
