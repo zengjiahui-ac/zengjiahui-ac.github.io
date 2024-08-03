@@ -22,8 +22,6 @@ I'm a 3rd-year undergraduate student majoring in Information and Computing Scien
 
 As a student with a multidisciplinary background in Mathematics and Artificial Intelligence, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
 
-I am actively seeking MPhil or PhD programs where I can use my expertise for technological advancement, integrating AI into real-world applications.
-
 <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgacCzg33i-YQDyD6mA?e=qgjgtD">My CV</a>
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
@@ -57,16 +55,20 @@ I am actively seeking MPhil or PhD programs where I can use my expertise for tec
 - *2023.04* First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
 
 # 📖 Educations
-- *2021.09 - 2025.06 (expected)*, Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
+- *2021.09 - 2025.06*, Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
+- *2025.09 - 2028.06*(expected), Master of Science in Kuang Yaming Honors School, Nanjing University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- Summer Workshop Student, *2023.05 - 2023.07*, School of Computer, National University of Singapore, Singapore. (Supervisor: <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> )
-- Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, Peking University, Beijing, China. (Supervisor: <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>)
-- Research Intern, *2024.08 - Present*, DKI Group, Microsoft, Beijing, China. (Supervisor: Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>)
+- Summer Workshop Student, *2023.05 - 2023.07*, School of Computer, National University of Singapore, Singapore.
+(Supervisor: <a href="https://www.comp.nus.edu.sg/cs/people/ctank/"> Prof. Colin Tan</a> and<a href="https://www.comp.nus.edu.sg/cs/people/boyd/"> Prof. Boyd Anderson</a> )
+- Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, Peking University, Beijing, China. 
+(Supervisor: <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>)
+- Research Intern, *2024.08 - Present*, DKI Group, Microsoft, Beijing, China. 
+(Supervisor: Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>)
 
 # 📚 Blogs
 
