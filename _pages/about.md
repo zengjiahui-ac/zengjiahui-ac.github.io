@@ -63,9 +63,9 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- Summer Workshop Student, *2023.05 - 2023.07*, School of Computer, National University of Singapore.
-- Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, Peking University.
-- Research Intern, *2024.08 - Present*, DKI Group, Microsoft.
+- **National University of Singapore:** Summer Workshop Student, *2023.05 - 2023.07*, School of Computer.
+- **Peking University:** Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology.
+- **Microsoft:** Research Intern, *2024.08 - Present*, DKI Group.
 
 # 📚 Blogs
 
