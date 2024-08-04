@@ -56,7 +56,7 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 # 📖 Educations
 - *2021.09 - 2025.06*, Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
-- *2025.09 - 2028.06*(expected), Master of Science (Kuang Yaming Honors School), Nanjing University.
+<!-- - *2025.09 - 2028.06*(expected), Master of Science (Kuang Yaming Honors School), Nanjing University. -->
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
