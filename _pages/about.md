@@ -33,7 +33,7 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted to EMNLP 2024</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted to AAAI 2025</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models](https://1drv.ms/b/s!AoP3c6HrNVOLgaY0NkVPDlKkig_m1A?e=T3Qiax)
