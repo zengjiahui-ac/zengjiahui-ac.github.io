@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 3rd-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Now I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
- Previously, I was working with NLP Group at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
+I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Now I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Dr. Justin Ding</a>.
+ Previously, I was working at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
 
 As a student with a multidisciplinary background in Mathematics and Artificial Intelligence, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
 
@@ -36,15 +36,14 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted to AAAI 2025</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models](https://1drv.ms/b/s!AoP3c6HrNVOLgaY0NkVPDlKkig_m1A?e=T3Qiax)
+[DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models]()
 
 **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
 
-[**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgaY0NkVPDlKkig_m1A?e=H3dw3y">Link to paper</a>
-- Proposed a novel dynamic weighting evaluation method using automated analytic hierarchy process.
-- Integrated LLMs to simulate human scoring to make models closer to human feedback, labeled a dataset with more than
-1,000 scoring.
-- Verified the consistency of the dataset with human feedback, and fine-tuned a low-cost lightweight model.
+[**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="">Link to paper</a>
+- We introduce new sub-metrics for GEC evaluation, diverging from previous categorical approaches.
+- We propose a novel dynamic weighting-based GEC evaluation method, DSGram, which integrates the Analytic Hierarchy Process (Ana 1987) with large language models to ascertain the relative importance of different evaluation criteria.
+- We present two datasets: DSGram-Eval, created through human scoring, and DSGram-LLMs, a larger dataset designed to simulate human scoring for fine-tuning.
 </div>
 </div>
 
@@ -64,8 +63,8 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 # 💻 Internships
 - Summer Workshop Student, *2023.05 - 2023.07*, School of Computer, **National University of Singapore**.
-- Research Intern, *2023.11 - 2024.07*, Wangxuan Institute of Computer Technology, **Peking University**.
-- Research Intern, *2024.08 - Present*, DKI Group, **Microsoft**.
+- Research Intern, *2023.11 - 2024.08*, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
+- Research Intern, *2024.08 - Present*, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
 
 # 📚 Blogs
 
