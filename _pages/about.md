@@ -17,17 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Now I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Dr. Justin Ding</a>.
-Previously, I was working at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
+I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Currently, I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Dr. Justin Ding</a>.
+Prior to this, I conducted research at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
 
-I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research before commencing my studies. As a student with a multidisciplinary background in mathematics and artificial intelligence, **I am looking for research assistant opportunities in LLMs applications in evaluation, AI for biology, unstructured natural language processing, etc. to deepen my understanding of Generative AI**
+I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in areas such as LLMs applications, AI for biology, unstructured natural language processing to deepen my understanding of Generative AI**.
 
 <!-- <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgacCzg33i-YQDyD6mA?e=qgjgtD">My CV</a> -->
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-- *2024.08*: &nbsp;🎉🎉 I will join Microsoft as Researcher Intern in August under the guidance of Principal Researcher Justin Ding.
+- *2024.08*: &nbsp;🎉🎉 I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
+- *2024.09*: &nbsp;🎉🎉 I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
 
 
 # 📝 Publications 
