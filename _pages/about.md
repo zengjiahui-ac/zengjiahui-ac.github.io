@@ -28,7 +28,7 @@ As a student with a multidisciplinary background in mathematics and artificial i
 
 
 # 🔥 News
--*2024.08*: &nbsp;🎉🎉 I will join Microsoft as Researcher Intern in August under the guidance of Principal Researcher Justin Ding.
+- *2024.08*: &nbsp;🎉🎉 I will join Microsoft as Researcher Intern in August under the guidance of Principal Researcher Justin Ding.
 
 
 # 📝 Publications 
