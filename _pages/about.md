@@ -42,20 +42,21 @@ As a student with a multidisciplinary background in mathematics and artificial i
 
 [**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="">Link to paper</a>
 - We introduce new sub-metrics for GEC evaluation, diverging from previous categorical approaches.
-- We propose a novel dynamic weighting-based GEC evaluation method, DSGram, which integrates the Analytic Hierarchy Process (Ana 1987) with large language models to ascertain the relative importance of different evaluation criteria.
+- We propose a novel dynamic weighting-based GEC evaluation method, DSGram, which integrates the Analytic Hierarchy Process with large language models to ascertain the relative importance of different evaluation criteria.
 - We present two datasets: DSGram-Eval, created through human scoring, and DSGram-LLMs, a larger dataset designed to simulate human scoring for fine-tuning.
 </div>
 </div>
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-<!-- # 🎖 Honors and Awards
+# 🎖 Honors and Awards
 - *2024.05* Honorable Mention of 2024 Mathematical Contest In Modeling
-- *2023.04* First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition -->
+- *2024.08* Second Prize in the Beijing Trial of the National College Student "Innovation, Creativity and Entrepreneurship" Competition
+- *2023.04* First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
 
 # 📖 Educations
 - *2021.09 - 2025.06*, Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
-- *(expected) 2025.09* - 2028.06, Master of Science at Kuang Yaming Honors School, Nanjing University.
+- *(Expected) 2025.09* - 2028.06, Master of Science at Kuang Yaming Honors School, Nanjing University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
