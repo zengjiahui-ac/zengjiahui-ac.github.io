@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Now I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Dr. Justin Ding</a>.
- Previously, I was working at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
+Previously, I was working at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
 
-As a student with a multidisciplinary background in Mathematics and Artificial Intelligence, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
+As a student with a multidisciplinary background in mathematics and artificial intelligence, strong foundations in research and leadership roles, I am keen on exploring opportunities that can deepen my understanding of Generative AI.
 
 <!-- <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgacCzg33i-YQDyD6mA?e=qgjgtD">My CV</a> -->
 
@@ -28,7 +28,7 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 
 # 🔥 News
--*2024.08*: &nbsp;🎉🎉 I will join Microsoft as Researcher Intern in August under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+-*2024.08*: &nbsp;🎉🎉 I will join Microsoft as Researcher Intern in August under the guidance of Principal Researcher Justin Ding.
 
 
 # 📝 Publications 
@@ -49,13 +49,13 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-# 🎖 Honors and Awards
-- *2024.05* Honorable Mention of 2024 Mathematical Contest In Modeling 
-- *2023.04* First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
+<!-- # 🎖 Honors and Awards
+- *2024.05* Honorable Mention of 2024 Mathematical Contest In Modeling
+- *2023.04* First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition -->
 
 # 📖 Educations
 - *2021.09 - 2025.06*, Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
-<!-- - *2025.09 - 2028.06*(expected), Master of Science (Kuang Yaming Honors School), Nanjing University. -->
+- *(expected) 2025.09* - 2028.06, Master of Science at Kuang Yaming Honors School, Nanjing University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -75,7 +75,7 @@ As a student with a multidisciplinary background in Mathematics and Artificial I
 
 My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China, which featured people from top research institutions.
 
-[Prompt Engineering: How To Ask LLMS Better](https://sspai.com/post/82322)
+[Prompt Engineering: How to Better Ask LLMs](https://sspai.com/post/82322)
 
 Introduce a number of methods for optimizing the output of large language models and reducing the probability of irrelevant or incorrect responses.
 </div>
