@@ -50,22 +50,22 @@ I have been offered admission to the graduate program at Nanjing University for 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2024.05*, Honorable Mention of 2024 Mathematical Contest In Modeling
-- *2024.08*, Second Prize in the Beijing Trial of the College Student "Innovation, Creativity and Entrepreneurship" Competition
-- *2023.04*, First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
+- *2024.05*: Honorable Mention of 2024 Mathematical Contest In Modeling
+- *2024.08*: Second Prize in the Beijing Trial of the College Student "Innovation, Creativity and Entrepreneurship" Competition
+- *2023.04*: First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
 
 # 📖 Educations
-- *2021.09 - 2025.06*, Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
-- *(Expected) 2025.09* - 2028.06, Master of Science at Kuang Yaming Honors School, Nanjing University.
+- *2021.09 - 2025.06*: Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
+- *2025.09 - 2028.06*: (Expected) Master of Science at Kuang Yaming Honors School, Nanjing University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- Summer Workshop Student, *2023.05 - 2023.07*, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
-- Research Intern, *2023.11 - 2024.08*, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
-- Research Intern, *2024.08 - Present*, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
+- *2023.05 - 2023.07*: Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
+- *2023.11 - 2024.08*: Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
+- *2024.08 - Present*: Research Intern, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
 
 # 📚 Blogs
 
