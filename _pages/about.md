@@ -33,7 +33,7 @@ I have been offered admission to the graduate program at Nanjing University for 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted to AAAI 2025</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models]()
