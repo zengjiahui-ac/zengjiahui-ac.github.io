@@ -27,9 +27,8 @@ I have been offered admission to the graduate program at Nanjing University for 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-- *2024.08*: &nbsp;🎉🎉 I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
 - *2024.09*: &nbsp;🎉🎉 I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
-
+- *2024.08*: &nbsp;🎉🎉 I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
 
 # 📝 Publications 
 
@@ -50,22 +49,22 @@ I have been offered admission to the graduate program at Nanjing University for 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2024.05*: Honorable Mention of 2024 Mathematical Contest In Modeling
 - *2024.08*: Second Prize in the Beijing Trial of the College Student "Innovation, Creativity and Entrepreneurship" Competition
+- *2024.05*: Honorable Mention of 2024 Mathematical Contest In Modeling
 - *2023.04*: First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
 
 # 📖 Educations
-- *2021.09 - 2025.06*: Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
 - *2025.09 - 2028.06*: (Expected) Master of Science at Kuang Yaming Honors School, Nanjing University.
+- *2021.09 - 2025.06*: Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.05 - 2023.07*: Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
-- *2023.11 - 2024.08*: Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
 - *2024.08 - Present*: Research Intern, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
+- *2023.11 - 2024.08*: Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
+- *2023.05 - 2023.07*: Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
 
 # 📚 Blogs
 
