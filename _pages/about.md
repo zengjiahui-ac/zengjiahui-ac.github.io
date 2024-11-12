@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Currently, I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Dr. Justin Ding</a>.
-Prior to this, I conducted research at **Peking University** under the supervision of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
+I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Currently, I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+Prior to this, I conducted research at **Peking University** under the supervision of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in areas such as LLMs applications, AI for biology, unstructured natural language processing to deepen my understanding of Generative AI**.
 
@@ -35,9 +35,10 @@ I have been offered admission to the graduate program at Nanjing University for 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models]()
+DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models
 
-**Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
+- **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
+- In AAAI, 2025
 
 <!-- [**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="">Link to paper</a> -->
 - We introduce new sub-metrics for GEC evaluation, diverging from previous categorical approaches.
