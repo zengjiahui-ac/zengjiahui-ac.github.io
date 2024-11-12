@@ -38,12 +38,13 @@ I have been offered admission to the graduate program at Nanjing University for 
 DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models
 
 - **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
-- In AAAI, 2025
+<!-- - In AAAI, 2025 -->
+- [[pdf]]() [[code]]()
 
 <!-- [**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="">Link to paper</a> -->
-- We introduce new sub-metrics for GEC evaluation, diverging from previous categorical approaches.
-- We propose a novel dynamic weighting-based GEC evaluation method, DSGram, which integrates the Analytic Hierarchy Process with large language models to ascertain the relative importance of different evaluation criteria.
-- We present two datasets: DSGram-Eval, created through human scoring, and DSGram-LLMs, a larger dataset designed to simulate human scoring for fine-tuning.
+<!-- - We introduce new sub-metrics for GEC evaluation.
+- We propose a novel dynamic weighting method, which integrates the Analytic Hierarchy Process with large language models to ascertain the relative importance of different evaluation criteria.
+- We present two datasets: DSGram-Eval, created through human scoring, and DSGram-LLMs, a larger dataset designed to simulate human scoring for fine-tuning. -->
 </div>
 </div>
 
