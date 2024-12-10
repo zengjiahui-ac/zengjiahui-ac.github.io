@@ -27,17 +27,19 @@ I have been offered admission to the graduate program at Nanjing University for 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
-- *2024.09*: &nbsp;🎉🎉 I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
-- *2024.08*: &nbsp;🎉🎉 I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
+- *2024.12*: &nbsp; 🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
+- *2024.09*: &nbsp; I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
+- *2024.08*: &nbsp; I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Manuscripts submitted</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/Example_page-0001.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models
 
-- **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan<!-- , AAAI 2025 -->
+- **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
+- In The 39th Annual AAAI Conference on Artificial Intelligence
 
 <!-- [**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="">Link to paper</a> -->
 <!-- - We introduce new sub-metrics for GEC evaluation.
