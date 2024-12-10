@@ -20,7 +20,7 @@ redirect_from:
 I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Currently, I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
 Prior to this, I conducted research at **Peking University** under the supervision of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
 
-I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in areas such as LLMs applications, AI for biology, unstructured natural language processing to deepen my understanding of Generative AI**.
+I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in areas such as LLMs applications, natural language processing to deepen my understanding of Generative AI**.
 
 <!-- <a href="https://1drv.ms/b/s!AoP3c6HrNVOLgacCzg33i-YQDyD6mA?e=qgjgtD">My CV</a> -->
 
