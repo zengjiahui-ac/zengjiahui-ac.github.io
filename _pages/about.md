@@ -74,7 +74,7 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PaperToSlides: An Open-Source AI Agent to convert Papers to Slides](https://github.com/jxtse/PaperToSlides)
+[An Open-Source AI Agent to convert Papers to Slides](https://github.com/jxtse/PaperToSlides)
 
 PaperToSlides is an AI-driven tool designed to automatically convert academic papers in PDF format into polished presentation slides—perfect for research group meetings, conference rehearsals, and quick paper summaries.
 
