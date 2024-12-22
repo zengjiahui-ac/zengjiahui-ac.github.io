@@ -40,7 +40,7 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 
 - **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
 - In The 39th Annual AAAI Conference on Artificial Intelligence
-- [[Arxiv]]() [[Code]](https://github.com/jxtse/GEC-Metrics-DSGram)
+- [[Arxiv]](https://arxiv.org/abs/2412.12832) [[Code]](https://github.com/jxtse/GEC-Metrics-DSGram)
 
 <!-- [**Project**](https://github.com/jxtse/GEC_Metrics_LLM) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> | <a href="">Link to paper</a> -->
 <!-- - We introduce new sub-metrics for GEC evaluation.
@@ -73,6 +73,10 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+[PaperToSlides: An Open-Source AI Agent to convert Papers to Slides](https://github.com/jxtse/PaperToSlides)
+
+PaperToSlides is an AI-driven tool designed to automatically convert academic papers in PDF format into polished presentation slides—perfect for research group meetings, conference rehearsals, and quick paper summaries.
 
 [LLMs: Cutting-Edge Technology and Future Applications](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
 
