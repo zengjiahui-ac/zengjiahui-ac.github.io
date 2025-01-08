@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jinxiang Xie (谢锦翔)"
+  name             : "Jinxiang Xie"
   avatar           : "images/android-chrome-512x512.jpg"
   bio              : "Beijing Jiaotong University"
   location         : "Beijing, China"
