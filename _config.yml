@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jinxiang Xie"
+title                    : "Jinxiang Xie (谢锦翔)"
 description              : "Majoring in Information and Computing Science. Focusing on LLMs, AI for Science and Data Science."
 repository               : "jxtse/jxtse.github.io"
 google_scholar_stats_use_cdn : true
