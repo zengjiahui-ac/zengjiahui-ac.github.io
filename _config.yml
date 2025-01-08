@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jinxiang Xie (谢锦翔)"
+title                    : "Jinxiang Xie"
 description              : "Majoring in Information and Computing Science. Focusing on LLMs, AI for Science and Data Science."
 repository               : "jxtse/jxtse.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jinxiang Xie"
+  name             : "Jinxiang Xie (谢锦翔)"
   avatar           : "images/android-chrome-512x512.jpg"
   bio              : "Beijing Jiaotong University"
   location         : "Beijing, China"
