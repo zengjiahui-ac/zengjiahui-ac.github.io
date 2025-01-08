@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Currently, I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+Hi! My name is Jinxiang Xie (谢锦翔). I'm a 4th-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. Currently, I am working as a research intern at **Microsoft** under the guidance of Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
 Prior to this, I conducted research at **Peking University** under the supervision of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in areas such as LLMs applications, natural language processing to deepen my understanding of Generative AI**.
