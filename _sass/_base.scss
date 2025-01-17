@@ -384,7 +384,7 @@
     transition: var(--transition);
     border: 1px solid rgba(0,0,0,0.05);
     padding: 1.8rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: flex; 
     flex-direction: row;  // 确保是水平方向的flex
     align-items: flex-start;
@@ -395,7 +395,7 @@
     }
   
     .paper-box-image {
-      flex: 0 0 25rem;  // 固定宽度
+      // flex: 0 0 25rem;  // 固定宽度
       margin: 2rem;  
       
       img {
