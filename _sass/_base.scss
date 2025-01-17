@@ -7,6 +7,15 @@ html {
   min-height: 100%;
 }
 
+/* Global Style Variables */
+:root {
+  --gradient-bg: linear-gradient(145deg, #ffffff, #f8f9fa);
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  --hover-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  --border-radius: 12px;
+  --transition: all 0.3s ease;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -362,6 +371,51 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+}
+
+/* Enhanced Paper Box */
+.paper-box {
+  background: var(--gradient-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  padding: 1.5rem;
+  margin: 2rem 0;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--hover-shadow);
+  }
+}
+
+/* Section Headers */
+h1, h2, h3 {
+  position: relative;
+  padding-left: 1rem;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background: $primary-color;
+    border-radius: 2px;
+  }
+}
+
+/* List Items Enhancement */
+ul:not(.highlight-block ul) {
+  li {
+    position: relative;
+    padding: 0.5rem 0;
+    transition: var(--transition);
+    
+    &:hover {
+      transform: translateX(5px);
     }
   }
 }
