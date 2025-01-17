@@ -388,6 +388,14 @@
       transform: translateY(-5px);
       box-shadow: var(--hover-shadow);
     }
+
+    .paper-box-text {
+      margin-right: 2rem;
+    }
+    
+    .paper-box-image {
+      margin-left: 2rem;
+    }
   }
   
   /* Section Headers */
