@@ -396,7 +396,7 @@
   
     .paper-box-image {
       // flex: 0 0 25rem;  // 固定宽度
-      margin: 1rem 2rem;  
+      margin: 0rem 2rem;  
       
       img {
         width: 100%;
@@ -406,7 +406,7 @@
     
     .paper-box-text {
       flex: 1;          // 让文字部分占据剩余空间
-      margin: 1rem 2rem;        // 移除所有margin
+      margin: 0rem 2rem;        // 移除所有margin
     }
   }
   
