@@ -38,7 +38,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
     <h3>✍️ Content Creator</h3>
     <ul>
       <li>Technical blogs with 500K+ views</li>
-      <li>Active on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e) & [WeChat Official](https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ)</li>
+      <li>Active on <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e">Xiaohongshu</a> & <a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ">WeChat Official</a></li>
       <li>Growing YouTube channel on AI & Tech</li>
     </ul>
   </div>
@@ -55,7 +55,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 
 # 🔥 News
 - *2024.12*: &nbsp;🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
-- *2024.09*: &nbsp;I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
+- *2024.09*: &nbsp;I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University.
 - *2024.08*: &nbsp;I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
 
 # 📝 Publications 
