@@ -388,7 +388,6 @@
     display: flex; 
     flex-direction: row;  // 确保是水平方向的flex
     align-items: flex-start;
-    gap: 1.5rem;
   
     &:hover {
       transform: translateY(-5px);
