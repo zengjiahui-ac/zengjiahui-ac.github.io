@@ -26,6 +26,8 @@ I have been offered admission to the graduate program at Nanjing University for 
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
+Feel free to scroll down to the footer if you want to reach out or learn more!
+
 # 🔥 News
 - *2024.12*: &nbsp; 🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
 - *2024.09*: &nbsp; I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
@@ -85,4 +87,5 @@ My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intellig
 [Prompt Engineering: How to Better Ask LLMs](https://sspai.com/post/82322)
 
 Introduce a number of methods for optimizing the output of large language models and reducing the probability of irrelevant or incorrect responses.
+</div>
 </div>
