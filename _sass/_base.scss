@@ -14,6 +14,8 @@ html {
   --hover-shadow: 0 6px 20px rgba(0,0,0,0.1);
   --border-radius: 12px;
   --transition: all 0.3s ease;
+  --content-padding: 2rem;
+  --section-spacing: 3rem;
 }
 
 body {
@@ -339,7 +341,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .highlight-block {
-  padding: 1.8rem;
+  padding: 2.2rem;  // 增加内部间距
   border-radius: 12px;
   background: linear-gradient(145deg, #ffffff, #f8f9fa);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -353,7 +355,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   h3 {
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;  // 增加标题下方间距
+    padding: 0.5rem 0;     // 增加标题内部间距
     color: $primary-color;
     font-size: 1.3em;
     font-weight: 600;
@@ -361,10 +364,11 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   ul {
     margin: 0;
-    padding-left: 1.2em;
+    padding-left: 1.8em;   // 增加列表缩进
     
     li {
-      margin-bottom: 0.8em;
+      margin-bottom: 1em;  // 增加列表项间距
+      padding: 0.3rem 0;   // 增加列表项内部间距
       color: $text-color;
       line-height: 1.4;
       
@@ -377,22 +381,33 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 /* Enhanced Paper Box */
 .paper-box {
+  padding: 2.2rem;         // 增加内部间距
+  margin: 2.5rem 0;        // 增加外部间距
   background: var(--gradient-bg);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   transition: var(--transition);
-  padding: 1.5rem;
-  margin: 2rem 0;
 
   &:hover {
     transform: translateY(-5px);
     box-shadow: var(--hover-shadow);
+  }
+  
+  .paper-box-text {
+    padding: 1.5rem 0;     // 添加文本区域内部间距
+  }
+  
+  .paper-box-image {
+    padding: 1rem;         // 添加图片区域内部间距
+    margin-bottom: 1.5rem; // 增加图片下方间距
   }
 }
 
 /* Section Headers */
 h1, h2, h3 {
   position: relative;
+  padding: 1rem 1.5rem;    // 增加标题内部间距
+  margin-bottom: 2rem;     // 增加标题下方间距
   padding-left: 1rem;
   
   &:before {
@@ -404,6 +419,19 @@ h1, h2, h3 {
     width: 4px;
     background: $primary-color;
     border-radius: 2px;
+  }
+}
+
+/* Lists and Content Sections */
+.page__content {
+  > section {
+    padding: var(--content-padding);
+    margin-bottom: var(--section-spacing);
+  }
+  
+  > h1[id] {
+    padding-top: 2rem;     // 增加锚点标题上方间距
+    margin-top: 3rem;      // 增加章节间距
   }
 }
 
