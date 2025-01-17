@@ -16,6 +16,9 @@ html {
   --transition: all 0.3s ease;
   --content-padding: 2rem;
   --section-spacing: 3rem;
+  --block-padding-x: 2.5rem;  // 水平内边距
+  --block-padding-y: 2.2rem;  // 垂直内边距
+  --text-padding-x: 1.5rem;   // 文本水平内边距
 }
 
 body {
@@ -341,7 +344,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .highlight-block {
-  padding: 2.2rem;  // 增加内部间距
+  padding: var(--block-padding-y) var(--block-padding-x);
   border-radius: 12px;
   background: linear-gradient(145deg, #ffffff, #f8f9fa);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
@@ -356,7 +359,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   h3 {
     margin-top: 0;
     margin-bottom: 1.5em;  // 增加标题下方间距
-    padding: 0.5rem 0;     // 增加标题内部间距
+    padding: 0.5rem var(--text-padding-x);
     color: $primary-color;
     font-size: 1.3em;
     font-weight: 600;
@@ -364,7 +367,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
   ul {
     margin: 0;
-    padding-left: 1.8em;   // 增加列表缩进
+    padding-left: calc(1.8em + var(--text-padding-x));
+    padding-right: var(--text-padding-x);
     
     li {
       margin-bottom: 1em;  // 增加列表项间距
@@ -381,7 +385,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 /* Enhanced Paper Box */
 .paper-box {
-  padding: 2.2rem;         // 增加内部间距
+  padding: var(--block-padding-y) var(--block-padding-x);
   margin: 2.5rem 0;        // 增加外部间距
   background: var(--gradient-bg);
   border-radius: var(--border-radius);
@@ -394,12 +398,16 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   }
   
   .paper-box-text {
-    padding: 1.5rem 0;     // 添加文本区域内部间距
+    padding: 1.5rem var(--text-padding-x);
   }
   
   .paper-box-image {
-    padding: 1rem;         // 添加图片区域内部间距
+    padding: 1rem var(--text-padding-x);
     margin-bottom: 1.5rem; // 增加图片下方间距
+    
+    img {
+      border-radius: calc(var(--border-radius) - 4px);
+    }
   }
 }
 
@@ -445,5 +453,18 @@ ul:not(.highlight-block ul) {
     &:hover {
       transform: translateX(5px);
     }
+  }
+}
+
+/* Publication and Blog Entry */
+.paper-box-text {
+  > h1, > h2, > h3, > p {
+    padding-left: var(--text-padding-x);
+    padding-right: var(--text-padding-x);
+  }
+  
+  > ul {
+    padding-left: calc(2em + var(--text-padding-x));
+    padding-right: var(--text-padding-x);
   }
 }
