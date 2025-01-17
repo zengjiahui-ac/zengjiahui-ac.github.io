@@ -383,7 +383,8 @@
     transition: var(--transition);
     padding: 1.5rem;
     margin: 2rem 0;
-    display: flex;
+    display: flex; 
+    flex-direction: row;  // 确保是水平方向的flex
     align-items: flex-start;
     gap: 2rem;
   
@@ -393,18 +394,19 @@
     }
   
     .paper-box-image {
-      flex: 0 0 auto;
-      width: 30%;
-      min-width: 200px;
+      flex: 0 0 200px;  // 固定宽度200px
+      margin: 0;        // 移除所有margin
       
       img {
         width: 100%;
         border-radius: var(--border-radius);
+        margin: 0;      // 移除所有margin
       }
     }
     
     .paper-box-text {
-      flex: 1 1 auto;
+      flex: 1;          // 让文字部分占据剩余空间
+      margin: 0;        // 移除所有margin
     }
   }
   
