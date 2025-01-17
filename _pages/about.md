@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jinxiang Xie (谢锦翔). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+Hi! My name is Jinxiang Xie (谢锦翔, pronounced as "SHEE-eh JIN-shee-ahng"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
 Previously, I conducted research at **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in LLMs applications and natural language processing**.
@@ -38,7 +38,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
     <h3>✍️ Content Creator</h3>
     <ul>
       <li>Technical blogs with 500K+ views</li>
-      <li>Active on Xiaohongshu & WeChat Official Account</li>
+      <li>Active on [Xiaohongshu](https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e) & [WeChat Official](https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ)</li>
       <li>Growing YouTube channel on AI & Tech</li>
     </ul>
   </div>
@@ -47,16 +47,16 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
     <h3>🌎 Life Explorer</h3>
     <ul>
       <li>Visited 7 countries worldwide</li>
-      <li>Traveled to all 32 provinces in China</li>
+      <li>Traveled to 32 provinces in China</li>
       <li>Rich experience in social work & activities</li>
     </ul>
   </div>
 </div>
 
 # 🔥 News
-- *2024.12*: &nbsp; 🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
-- *2024.09*: &nbsp; I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
-- *2024.08*: &nbsp; I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
+- *2024.12*: &nbsp;🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
+- *2024.09*: &nbsp;I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University. My primary research focus will be on AI for Science.
+- *2024.08*: &nbsp;I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
 
 # 📝 Publications 
 
@@ -79,22 +79,22 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2024.08*: Second Prize in the Beijing Trial of the College Student "Innovation, Creativity and Entrepreneurship" Competition
-- *2024.05*: Honorable Mention of 2024 Mathematical Contest In Modeling
-- *2023.04*: First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
+- *2024.08*: &nbsp;Second Prize in the Beijing Trial of the College Student "Innovation, Creativity and Entrepreneurship" Competition
+- *2024.05*: &nbsp;Honorable Mention of 2024 Mathematical Contest In Modeling
+- *2023.04*: &nbsp;First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
 
 # 📖 Educations
-- *2025.09 - 2028.06*: (Expected) Master of Science at Kuang Yaming Honors School, Nanjing University.
-- *2021.09 - 2025.06*: Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
+- *2025.09 - 2028.06*: &nbsp;(Expected) Master of Science at Kuang Yaming Honors School, Nanjing University.
+- *2021.09 - 2025.06*: &nbsp;Bachelor of Science in Information and Computing Science, Beijing Jiaotong University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.08 - Present*: Research Intern, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
-- *2023.11 - 2024.08*: Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
-- *2023.05 - 2023.07*: Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
+- *2024.08 - Present*: &nbsp;Research Intern, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
+- *2023.11 - 2024.08*: &nbsp;Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
+- *2023.05 - 2023.07*: &nbsp;Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
 
 # 📚 Blogs
 
@@ -108,7 +108,7 @@ PaperToSlides is an AI-driven tool designed to automatically convert academic pa
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic03.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [LLMs: Cutting-Edge Technology and Future Applications](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
 
@@ -117,7 +117,7 @@ My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intellig
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic01.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Prompt Engineering: How to Better Ask LLMs](https://sspai.com/post/82322)
