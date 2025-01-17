@@ -335,7 +335,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
   
   .highlight-block {
@@ -396,7 +396,7 @@
   
     .paper-box-image {
       // flex: 0 0 25rem;  // 固定宽度
-      margin: 2rem;  
+      margin: 1rem 2rem;  
       
       img {
         width: 100%;
@@ -406,7 +406,7 @@
     
     .paper-box-text {
       flex: 1;          // 让文字部分占据剩余空间
-      margin: 2rem;        // 移除所有margin
+      margin: 1rem 2rem;        // 移除所有margin
     }
   }
   
