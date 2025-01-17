@@ -22,11 +22,36 @@ Previously, I conducted research at **Peking University** under the guidance of 
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in LLMs applications and natural language processing**.
 
-[My CV](assets/Jinxiang's CV.pdf)
+Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
-
-Feel free to scroll down to the footer if you want to reach out or learn more!
+<div class="highlight-blocks">
+  <div class="highlight-block">
+    <h3>🔬 AI Researcher</h3>
+    <ul>
+      <li>Research focus on LLMs, LMMs, and NLP</li>
+      <li>Multiple internships at top institutions</li>
+      <li>Publication at AAAI 2025</li>
+    </ul>
+  </div>
+  
+  <div class="highlight-block">
+    <h3>✍️ Content Creator</h3>
+    <ul>
+      <li>Technical blogs with 500K+ views</li>
+      <li>Active on Xiaohongshu & WeChat Official Account</li>
+      <li>Growing YouTube channel on AI & Tech</li>
+    </ul>
+  </div>
+  
+  <div class="highlight-block">
+    <h3>🌎 Life Explorer</h3>
+    <ul>
+      <li>Visited 7 countries worldwide</li>
+      <li>Traveled to all 32 provinces in China</li>
+      <li>Rich experience in social work & activities</li>
+    </ul>
+  </div>
+</div>
 
 # 🔥 News
 - *2024.12*: &nbsp; 🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
@@ -82,7 +107,7 @@ PaperToSlides is an AI-driven tool designed to automatically convert academic pa
 
 [LLMs: Cutting-Edge Technology and Future Applications](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
 
-My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China, which featured people from top research institutions.
+My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China.
 
 [Prompt Engineering: How to Better Ask LLMs](https://sspai.com/post/82322)
 
