@@ -381,12 +381,12 @@
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     transition: var(--transition);
-    padding: 1.5rem;
+    // padding: 1.5rem;
     margin: 2rem 0;
     display: flex; 
     flex-direction: row;  // 确保是水平方向的flex
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1.5rem;
   
     &:hover {
       transform: translateY(-5px);
@@ -394,8 +394,8 @@
     }
   
     .paper-box-image {
-      flex: 0 0 400px;  // 固定宽度200px
-      margin: 2rem;        // 移除所有margin
+      flex: 0 0 25rem;  // 固定宽度
+      margin: 2rem;  
       
       img {
         width: 100%;
