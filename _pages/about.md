@@ -101,6 +101,15 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+[Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency](https://medium.com/@axx3333a/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+My vision of the future: from Bitcoin to an AGI-driven decentralized society
+
+[Chinese Version](https://mp.weixin.qq.com/s/luu2qEzPnYAuryJ9mYoJ6Q) [English Version](https://medium.com/@axx3333a/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
+
 [An Open-Source AI Agent to convert Papers to Slides](https://github.com/jxtse/PaperToSlides)
 
 PaperToSlides is an AI-driven tool designed to automatically convert academic papers in PDF format into polished presentation slides—perfect for research group meetings, conference rehearsals, and quick paper summaries.
