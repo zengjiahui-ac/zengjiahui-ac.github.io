@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jinxiang Xie (谢锦翔, pronounced as "SHEE-eh JIN-shee-ahng"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+Hi! My name is Jinxiang Xie (pronounced as "JIN-shee-ahng SHEE-eh"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
 Previously, I conducted research at **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in LLMs applications and natural language processing**.
@@ -98,7 +98,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 
 # 📚 Blogs
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic04.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">27, January, 2025</div><img src='images/pic04.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency
@@ -110,7 +110,7 @@ My vision of the future: from Bitcoin to an AGI-driven decentralized society
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">15, November, 2024</div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## An Open-Source AI Agent to convert Papers to Slides
@@ -122,7 +122,7 @@ PaperToSlides is an AI-driven tool designed to automatically convert academic pa
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic03.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">14, November, 2023</div><img src='images/pic03.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## LLMs: Cutting-Edge Technology and Future Applications
@@ -134,7 +134,7 @@ My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intellig
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/pic01.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">24, August, 2023</div><img src='images/pic01.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## Prompt Engineering: How to Better Ask LLMs
