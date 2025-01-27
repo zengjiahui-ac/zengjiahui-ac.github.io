@@ -103,6 +103,9 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 
 [Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency](https://medium.com/@axx3333a/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
