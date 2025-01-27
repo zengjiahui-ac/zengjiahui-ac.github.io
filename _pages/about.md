@@ -101,7 +101,7 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic04.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency](https://jxtse.medium.com/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
+### Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency
 
 My vision of the future: from Bitcoin to an AGI-driven decentralized society
 
@@ -113,18 +113,23 @@ My vision of the future: from Bitcoin to an AGI-driven decentralized society
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[An Open-Source AI Agent to convert Papers to Slides](https://github.com/jxtse/PaperToSlides)
+### An Open-Source AI Agent to convert Papers to Slides
 
 PaperToSlides is an AI-driven tool designed to automatically convert academic papers in PDF format into polished presentation slides—perfect for research group meetings, conference rehearsals, and quick paper summaries.
+
+[[Project Link]](https://github.com/jxtse/PaperToSlides)
 
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic03.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[LLMs: Cutting-Edge Technology and Future Applications](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
+
+### LLMs: Cutting-Edge Technology and Future Applications
 
 My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China.
+
+[[Chinese Version]](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
 
 </div>
 </div>
@@ -132,9 +137,11 @@ My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intellig
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic01.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Prompt Engineering: How to Better Ask LLMs](https://sspai.com/post/82322)
+### Prompt Engineering: How to Better Ask LLMs
 
 Introduce a number of methods for optimizing the output of large language models and reducing the probability of irrelevant or incorrect responses.
+
+[[Chinese Version]](https://sspai.com/post/82322)
 
 </div>
 </div>
