@@ -105,7 +105,7 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 
 My vision of the future: from Bitcoin to an AGI-driven decentralized society
 
-[Chinese Version](https://mp.weixin.qq.com/s/luu2qEzPnYAuryJ9mYoJ6Q) [English Version](https://jxtse.medium.com/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
+[[Chinese Version]](https://mp.weixin.qq.com/s/luu2qEzPnYAuryJ9mYoJ6Q) [[English Version]](https://jxtse.medium.com/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
 
 </div>
 </div>
