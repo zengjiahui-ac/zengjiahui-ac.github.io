@@ -63,7 +63,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/Example_page-0001.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models
+**DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the Era of Large Language Models**
 
 - **Jinxiang Xie**, Yilin Li, Xunjian Yin, Xiaojun Wan
 - In The 39th Annual AAAI Conference on Artificial Intelligence
@@ -101,7 +101,7 @@ DSGram: Dynamic Weighting Sub-Metrics for Grammartical Error Correction in the E
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic04.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-### Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency
+## Beyond the Future of AI: The Dreams and Deceptions of Cryptocurrency
 
 My vision of the future: from Bitcoin to an AGI-driven decentralized society
 
@@ -113,7 +113,7 @@ My vision of the future: from Bitcoin to an AGI-driven decentralized society
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-### An Open-Source AI Agent to convert Papers to Slides
+## An Open-Source AI Agent to convert Papers to Slides
 
 PaperToSlides is an AI-driven tool designed to automatically convert academic papers in PDF format into polished presentation slides—perfect for research group meetings, conference rehearsals, and quick paper summaries.
 
@@ -125,7 +125,7 @@ PaperToSlides is an AI-driven tool designed to automatically convert academic pa
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic03.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-### LLMs: Cutting-Edge Technology and Future Applications
+## LLMs: Cutting-Edge Technology and Future Applications
 
 My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China.
 
@@ -137,7 +137,7 @@ My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intellig
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/pic01.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-### Prompt Engineering: How to Better Ask LLMs
+## Prompt Engineering: How to Better Ask LLMs
 
 Introduce a number of methods for optimizing the output of large language models and reducing the probability of irrelevant or incorrect responses.
 
