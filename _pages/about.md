@@ -78,7 +78,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-# 🎖 Honors and Awards
+# 🥇 Honors and Awards
 - *2024.08*: &nbsp;Second Prize in the Beijing Trial of the College Student "Innovation, Creativity and Entrepreneurship" Competition
 - *2024.05*: &nbsp;Honorable Mention of 2024 Mathematical Contest In Modeling
 - *2023.04*: &nbsp;First Prize of 2023 Beijing Jiaotong University Mathematical Modeling Competition
