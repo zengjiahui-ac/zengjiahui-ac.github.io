@@ -56,12 +56,12 @@
    $light-gray                 : mix(#fff, $gray, 50%);
    $lighter-gray               : mix(#fff, $gray, 90%);
    
-   $body-color                 : #C0C2CE;
-   $background-color           : #C0C2CE;
-   $code-background-color      : lighten(#C0C2CE, 5%);
-   $code-background-color-dark : darken(#C0C2CE, 5%);
+   $body-color                 : #fff;
+   $background-color           : #fff;
+   $code-background-color      : #fafafa;
+   $code-background-color-dark : $light-gray;
    $text-color                 : #012F63;
-   $border-color               : darken(#C0C2CE, 10%);
+   $border-color               : #e2e8f0;
    
    $primary-color              : #012F63;
    $success-color              : #FE667B;

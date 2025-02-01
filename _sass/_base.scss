@@ -341,7 +341,7 @@
   .highlight-block {
     padding: 1.8rem;
     border-radius: var(--border-radius);
-    background: linear-gradient(145deg, lighten(#C0C2CE, 5%), #C0C2CE);
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
     box-shadow: var(--box-shadow);
     transition: var(--transition);
     border: 1px solid rgba(1, 47, 99, 0.1);
@@ -377,7 +377,7 @@
   
   /* Enhanced Paper Box */
   .paper-box {
-    background: linear-gradient(145deg, lighten(#C0C2CE, 5%), #C0C2CE);
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     transition: var(--transition);
