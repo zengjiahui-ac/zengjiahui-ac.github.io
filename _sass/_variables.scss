@@ -95,10 +95,10 @@
    
    /* links */
    $link-color                 : #012F63;
-   $link-color-hover           : darken($link-color, 15%);
+   $link-color-hover           : #FE667B;
    $link-color-visited         : mix(#fff, $link-color, 25%);
    $masthead-link-color        : $primary-color;
-   $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+   $masthead-link-color-hover  : #FE667B;
    
    
    /*

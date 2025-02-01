@@ -140,14 +140,14 @@
       height: 1px;
       bottom: -2px;
       left: 0;
-      background-color: $primary-color;
+      background-color: #FE667B;
       transform: scaleX(0);
       transform-origin: bottom right;
       transition: transform 0.3s ease-out;
     }
     
     &:hover {
-      color: darken($primary-color, 15%);
+      color: #FE667B;
       
       &:after {
         transform: scaleX(1);
@@ -466,5 +466,19 @@
       &:hover {
         transform: translateX(5px);
       }
+    }
+  }
+
+  /* Paper Box Link Hover */
+  .paper-box-text {
+    a:hover {
+      color: #FE667B;
+    }
+  }
+
+  /* Highlight Block Link Hover */
+  .highlight-block {
+    a:hover {
+      color: #FE667B;
     }
   }
