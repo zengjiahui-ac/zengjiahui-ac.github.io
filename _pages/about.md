@@ -28,7 +28,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
   <div class="highlight-block">
     <h3>🔬 AI Researcher</h3>
     <ul>
-      <li>Research focus on LLMs, LMMs, and NLP</li>
+      <li>Research focus on LLMs and NLP</li>
       <li>Multiple internships at top institutions</li>
       <li>Publication at AAAI 2025</li>
     </ul>
@@ -38,8 +38,8 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
     <h3>✍️ Content Creator</h3>
     <ul>
       <li>Technical blogs with 500K+ views</li>
-      <li>Active on <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e">Xiaohongshu</a> & <a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ">WeChat Official</a></li>
-      <li>Growing YouTube channel on AI & Tech</li>
+      <li>Active on <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e">Xiaohongshu</a></li>
+      <li>Growing <a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ">WeChat Public Account</a> on Tech & Humanities</li>
     </ul>
   </div>
   
