@@ -56,18 +56,18 @@
    $light-gray                 : mix(#fff, $gray, 50%);
    $lighter-gray               : mix(#fff, $gray, 90%);
    
-   $body-color                 : #fff;
-   $background-color           : #fff;
-   $code-background-color      : #fafafa;
-   $code-background-color-dark : $light-gray;
-   $text-color                 : #2d3748;
-   $border-color               : #e2e8f0;
+   $body-color                 : #C0C2CE;
+   $background-color           : #C0C2CE;
+   $code-background-color      : lighten(#C0C2CE, 5%);
+   $code-background-color-dark : darken(#C0C2CE, 5%);
+   $text-color                 : #012F63;
+   $border-color               : darken(#C0C2CE, 10%);
    
-   $primary-color              : #2c5282;
-   $success-color              : #62c462;
+   $primary-color              : #012F63;
+   $success-color              : #FE667B;
    $warning-color              : #f89406;
    $danger-color               : #ee5f5b;
-   $info-color                 : #224b8d;
+   $info-color                 : #012F63;
    // $info-color                 : #52adc8;
    
    /* brands */
@@ -94,7 +94,7 @@
    
    
    /* links */
-   $link-color                 : $primary-color;
+   $link-color                 : #012F63;
    $link-color-hover           : darken($link-color, 15%);
    $link-color-visited         : mix(#fff, $link-color, 25%);
    $masthead-link-color        : $primary-color;

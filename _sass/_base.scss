@@ -341,20 +341,20 @@
   .highlight-block {
     padding: 1.8rem;
     border-radius: var(--border-radius);
-    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+    background: linear-gradient(145deg, lighten(#C0C2CE, 5%), #C0C2CE);
     box-shadow: var(--box-shadow);
     transition: var(--transition);
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(1, 47, 99, 0.1);
   
     &:hover {
       transform: translateY(-5px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 20px rgba(1, 47, 99, 0.1);
     }
   
     h3 {
       margin-top: 0;
       margin-bottom: 1em;
-      color: $primary-color;
+      color: #012F63;
       font-size: 1.3em;
       font-weight: 600;
     }
@@ -365,7 +365,7 @@
       
       li {
         margin-bottom: 0.8em;
-        color: $text-color;
+        color: #012F63;
         line-height: 1.4;
         
         &:last-child {
@@ -377,12 +377,11 @@
   
   /* Enhanced Paper Box */
   .paper-box {
-    background: var(--gradient-bg);
+    background: linear-gradient(145deg, lighten(#C0C2CE, 5%), #C0C2CE);
     border-radius: var(--border-radius);
-    background: linear-gradient(145deg, #ffffff, #f8f9fa);
     box-shadow: var(--box-shadow);
     transition: var(--transition);
-    border: 1px solid rgba(0,0,0,0.05);
+    border: 1px solid rgba(1, 47, 99, 0.1);
     padding: 1.8rem;
     margin: 1rem 0;
     display: flex; 
@@ -407,6 +406,15 @@
     .paper-box-text {
       flex: 1;          // 让文字部分占据剩余空间
       margin: 0rem 2rem;        // 移除所有margin
+    }
+  
+    .badge {
+      background-color: #FE667B;
+      color: white;
+      padding: 0.2em 0.8em;
+      border-radius: 3px;
+      font-size: 0.8em;
+      font-weight: 600;
     }
   }
   
