@@ -113,11 +113,11 @@ My vision of the future: from Bitcoin to an AGI-driven decentralized society
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">November, 2024</div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## An Open-Source AI Agent to convert Papers to Slides
+## LexiMind: An Open-Source LLM-Powered Vocabulary Builder
 
-PaperToSlides is an AI-driven tool designed to automatically convert academic papers in PDF format into polished presentation slides—perfect for research group meetings, conference rehearsals, and quick paper summaries.
+LexiMind is an AI-powered vocabulary builder that integrates LLM-based translation with smart word retention. It's designed to help users efficiently learn new words by saving unfamiliar words to a personal word bank and reviewing them with spaced repetition.
 
-[[Project Link]](https://github.com/jxtse/PaperToSlides)
+[[Project Link]](https://github.com/jxtse/LexiMind)
 
 </div>
 </div>
