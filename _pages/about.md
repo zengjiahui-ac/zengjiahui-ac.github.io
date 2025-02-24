@@ -117,7 +117,7 @@ My vision of the future: from Bitcoin to an AGI-driven decentralized society
 
 LexiMind is an AI-powered vocabulary builder that integrates LLM-based translation with smart word retention. It's designed to help users efficiently learn new words by saving unfamiliar words to a personal word bank and reviewing them with spaced repetition.
 
-[[Project Link]](https://github.com/jxtse/LexiMind)
+[[中文介绍]](https://www.xiaohongshu.com/explore/67a48f0d000000001800721c) [[Project Link]](https://github.com/jxtse/LexiMind)
 
 </div>
 </div>
