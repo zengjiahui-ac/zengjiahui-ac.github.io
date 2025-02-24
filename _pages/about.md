@@ -105,12 +105,12 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 
 My vision of the future: from Bitcoin to an AGI-driven decentralized society
 
-[[Chinese Version]](https://mp.weixin.qq.com/s/luu2qEzPnYAuryJ9mYoJ6Q) [[English Version]](https://jxtse.medium.com/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
+[[中文版]](https://mp.weixin.qq.com/s/luu2qEzPnYAuryJ9mYoJ6Q) [[English Version]](https://jxtse.medium.com/beyond-the-future-of-ai-the-dreams-and-deceptions-of-cryptocurrency-5da8d4bbf69e)
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">November, 2024</div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">November, 2024</div><img src='images/pic05.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ## LexiMind: An Open-Source LLM-Powered Vocabulary Builder
@@ -129,7 +129,7 @@ LexiMind is an AI-powered vocabulary builder that integrates LLM-based translati
 
 My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intelligence, Renmin University of China.
 
-[[Chinese Version]](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
+[[中文版]](https://mp.weixin.qq.com/s?__biz=Mzg5NzczMzM3MA==&mid=2247483926&idx=1&sn=c6dcaf93ec8d7ecaa760df4682589b21)
 
 </div>
 </div>
@@ -141,7 +141,7 @@ My notes from a presentation on LLMs at the Gaoling Schoolof Artificial Intellig
 
 Introduce a number of methods for optimizing the output of large language models and reducing the probability of irrelevant or incorrect responses.
 
-[[Chinese Version]](https://sspai.com/post/82322)
+[[中文版]](https://sspai.com/post/82322)
 
 </div>
 </div>
