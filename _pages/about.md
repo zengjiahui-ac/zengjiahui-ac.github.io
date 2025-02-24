@@ -125,7 +125,7 @@ LexiMind is an AI-powered vocabulary builder that integrates LLM-based translati
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">July, 2024</div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-## My NLP Learning Path as an Mathematics Undergraduate Student
+## My NLP Learning Path as a Mathematics Undergraduate Student
 
 I share my learning path and some insights on natural language processing as a mathematics undergraduate student.
 
