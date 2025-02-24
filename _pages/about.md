@@ -122,6 +122,18 @@ LexiMind is an AI-powered vocabulary builder that integrates LLM-based translati
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">July, 2024</div><img src='images/pic02.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+## My NLP Learning Path as an Mathematics Undergraduate Student
+
+I share my learning path and some insights on natural language processing as a mathematics undergraduate student.
+
+[[中文版]](https://www.xiaohongshu.com/explore/668a35c8000000001e010600) [[English Version]](https://www.linkedin.com/posts/jinxiang-xie_naturallanguageprocessing-nlp-learningpath-activity-7215638435393359872-dPr8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEmWk88Bhyvl-E41lfo1McNlpiC4YSsk7WQ)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">November, 2023</div><img src='images/pic03.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
