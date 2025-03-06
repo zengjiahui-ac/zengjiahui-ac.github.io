@@ -127,14 +127,33 @@
   
   /* links */
   
-  a:not(.btn):not(.no-hover) {
-    color: $link-color;
-    text-decoration: none !important;
-    transition: color 0.3s ease;
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    position: relative;
+    transition: var(--transition);
+    
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: -2px;
+      left: 0;
+      background-color: $primary-color;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.3s ease-out;
+    }
     
     &:hover {
-      color: $link-color;
-      text-decoration: none !important;
+      color: $primary-color;
+      text-decoration: none;
+      
+      &:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
     }
   }
   
@@ -453,22 +472,14 @@
 
   /* Paper Box Link Hover */
   .paper-box-text {
-    a:not(.btn):not(.no-hover) {
-      text-decoration: none !important;
-      &:hover {
-        color: $link-color;
-        text-decoration: none !important;
-      }
+    a:hover {
+      color: $primary-color;
     }
   }
 
   /* Highlight Block Link Hover */
   .highlight-block {
-    a:not(.btn):not(.no-hover) {
-      text-decoration: none !important;
-      &:hover {
-        color: $link-color;
-        text-decoration: none !important;
-      }
+    a:hover {
+      color: $primary-color;
     }
   }
