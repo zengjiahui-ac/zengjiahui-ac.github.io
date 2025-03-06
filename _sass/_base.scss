@@ -127,14 +127,14 @@
   
   /* links */
   
-  a {
-    color: $primary-color;
-    text-decoration: none;
+  a:not(.btn):not(.no-hover) {
+    color: $link-color;
+    text-decoration: none !important;
     transition: color 0.3s ease;
     
     &:hover {
-      color: $primary-color;
-      text-decoration: none;
+      color: $link-color;
+      text-decoration: none !important;
     }
   }
   
@@ -453,14 +453,22 @@
 
   /* Paper Box Link Hover */
   .paper-box-text {
-    a:hover {
-      color: $primary-color;
+    a:not(.btn):not(.no-hover) {
+      text-decoration: none !important;
+      &:hover {
+        color: $link-color;
+        text-decoration: none !important;
+      }
     }
   }
 
   /* Highlight Block Link Hover */
   .highlight-block {
-    a:hover {
-      color: $primary-color;
+    a:not(.btn):not(.no-hover) {
+      text-decoration: none !important;
+      &:hover {
+        color: $link-color;
+        text-decoration: none !important;
+      }
     }
   }
