@@ -19,8 +19,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jinxiang Xie (pronounced as "JIN-shee-ahng SHEE-eh"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at <i class="fab fa-microsoft"></i> **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
-Previously, I was honored to conduct research at <img src="https://www.pku.edu.cn/favicon.ico" width="16" height="16" style="vertical-align: middle;"> **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
+Hi! My name is Jinxiang Xie (pronounced as "JIN-shee-ahng SHEE-eh"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at <i class="fas fa-university"></i> **Beijing Jiaotong University**. I am currently a research intern at <i class="fab fa-microsoft"></i> **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
+Previously, I was honored to conduct research at <i class="fas fa-university"></i> **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in LLMs applications and natural language processing**.
 
@@ -94,9 +94,9 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.08 - Present*: &nbsp;Research Intern, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), <i class="fab fa-microsoft"></i> **Microsoft**.
-- *2023.11 - 2024.08*: &nbsp;Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), <img src="https://www.pku.edu.cn/favicon.ico" width="16" height="16" style="vertical-align: middle;"> **Peking University**.
-- *2023.05 - 2023.07*: &nbsp;Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), <img src="https://www.nus.edu.sg/favicon.ico" width="16" height="16" style="vertical-align: middle;"> **National University of Singapore**.
+- *2024.08 - Present*: &nbsp;Research Intern, [Data, Knowledge and Intelligence (DKI) Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/), **Microsoft**.
+- *2023.11 - 2024.08*: &nbsp;Research Intern, [Wangxuan Institute of Computer Technology](https://sai.pku.edu.cn/znxyenglish/), **Peking University**.
+- *2023.05 - 2023.07*: &nbsp;Summer Workshop Student, [School of Computer](https://www.comp.nus.edu.sg/), **National University of Singapore**.
 
 # 📚 Blogs
 
