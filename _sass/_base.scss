@@ -136,7 +136,7 @@
     transition: all 0.3s ease;
     
     &:hover {
-      color: darken($primary-color, 15%);
+      color: $success-color;
       text-decoration-color: currentColor;
     }
   }
@@ -457,14 +457,14 @@
   /* Paper Box Link Hover */
   .paper-box-text {
     a:hover {
-      color: $primary-color;
+      color: $success-color;
     }
   }
 
   /* Highlight Block Link Hover */
   .highlight-block {
     a:hover {
-      color: $primary-color;
+      color: $success-color;
     }
   }
 
@@ -474,6 +474,7 @@
     
     &:hover {
       text-decoration: none;
+      color: $success-color;
     }
   }
 
