@@ -15,6 +15,11 @@
     --border-radius: 10px;  // 稍微减小圆角
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --spacing-unit: 1.4rem;  // 减小基础间距单位
+    --link-hover-effect: {
+      color: $success-color;
+      text-decoration: none;
+      transition: var(--transition);
+    }
   }
   
   body {
@@ -129,15 +134,11 @@
   
   a {
     color: $primary-color;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 1px;
-    text-decoration-color: rgba($primary-color, 0.3);
-    transition: all 0.3s ease;
+    text-decoration: none;
+    transition: var(--transition);
     
     &:hover {
-      color: $success-color;
-      text-decoration-color: currentColor;
+      @extend --link-hover-effect;
     }
   }
   

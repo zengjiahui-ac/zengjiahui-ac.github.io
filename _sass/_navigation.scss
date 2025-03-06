@@ -183,9 +183,10 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    transition: var(--transition);
 
     &:hover {
-      color: $masthead-link-color-hover;
+      @extend --link-hover-effect;
     }
   }
 
@@ -231,20 +232,15 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        height: 2px;
+        background: $success-color;
         width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+        transition: var(--transition);
+        transform: scaleX(0);
       }
 
       &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+        transform: scaleX(1);
       }
     }
   }
@@ -264,9 +260,10 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      transition: var(--transition);
 
       &:hover {
-        color: $masthead-link-color-hover;
+        @extend --link-hover-effect;
         background: mix(#fff, $primary-color, 75%);
       }
     }
