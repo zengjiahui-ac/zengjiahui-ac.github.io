@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jinxiang Xie (pronounced as "JIN-shee-ahng SHEE-eh"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
-Previously, I conducted research at **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
+Hi! My name is Jinxiang Xie (pronounced as "JIN-shee-ahng SHEE-eh"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at **Beijing Jiaotong University**. I am currently a research intern at **Microsoft** working with <a href="https://www.microsoft.com/en-us/research/people/juding/">Principal Researcher Justin Ding</a>.
+Previously, I was honored to conduct research at **Peking University** under the guidance of <a href="https://wanxiaojun.github.io/">Prof. Xiaojun Wan</a>.
 
 I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in LLMs applications and natural language processing**.
 
@@ -117,7 +117,7 @@ My vision of the future: from Bitcoin to an AGI-driven decentralized society
 
 LexiMind is an AI-powered vocabulary builder that integrates LLM-based translation with smart word retention. It's designed to help users efficiently learn new words by saving unfamiliar words to a personal word bank and reviewing them with spaced repetition.
 
-[[中文介绍]](https://www.xiaohongshu.com/explore/67a48f0d000000001800721c) [[Project Link]](https://github.com/jxtse/LexiMind)
+[[中文介绍]](https://www.xiaohongshu.com/explore/67a48f0d000000001800721c?xsec_token=ABXUfGRE_zHTnXbEyaNmuelNX3M4527lw3zirVu2KJUKA=&xsec_source=pc_user) [[Project Link]](https://github.com/jxtse/LexiMind)
 
 </div>
 </div>
@@ -129,7 +129,7 @@ LexiMind is an AI-powered vocabulary builder that integrates LLM-based translati
 
 I share my learning path and some insights on natural language processing as a mathematics undergraduate student.
 
-[[中文版]](https://www.xiaohongshu.com/explore/668a35c8000000001e010600) [[English Version]](https://www.linkedin.com/posts/jinxiang-xie_naturallanguageprocessing-nlp-learningpath-activity-7215638435393359872-dPr8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEmWk88Bhyvl-E41lfo1McNlpiC4YSsk7WQ)
+[[中文版]](https://www.xiaohongshu.com/explore/668a35c8000000001e010600?xsec_token=ABl3IEpctnnXxbjsYlUul3nZBcA622VEEpS6zNOEPrxVI=&xsec_source=pc_user) [[English Version]](https://www.linkedin.com/posts/jinxiang-xie_naturallanguageprocessing-nlp-learningpath-activity-7215638435393359872-dPr8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEmWk88Bhyvl-E41lfo1McNlpiC4YSsk7WQ)
 
 </div>
 </div>
