@@ -148,6 +148,7 @@
     
     &:hover {
       color: $primary-color;
+      text-decoration: none;
       
       &:after {
         transform: scaleX(1);
@@ -472,13 +473,13 @@
   /* Paper Box Link Hover */
   .paper-box-text {
     a:hover {
-      color: #FE667B;
+      color: $primary-color;
     }
   }
 
   /* Highlight Block Link Hover */
   .highlight-block {
     a:hover {
-      color: #FE667B;
+      color: $primary-color;
     }
   }

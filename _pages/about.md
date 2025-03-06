@@ -158,9 +158,9 @@ Introduce a number of methods for optimizing the output of large language models
 </div>
 </div>
 
-# 👻 Miscellaneous
+<!-- # 👻 Miscellaneous
 
 - ⚽️ Soccer (MIA SAN MIA) / 🎾 Pickleball / 🥏 Frisbee / 👣 Hiking / 💪 Body Building / 🚗 Travelling
 - 📷 Photography (Sony A7M4) / 🎧 Music (Hip-Hop, R&B, Soul) / 🎥 Movies
 - 💻 Apple / 🚀 SpaceX / Microsoft / Google / Insta360
-- 🧍 Person Who I Admire: My Mom, Kaká, Elon Musk, Kanye West, David Tao
+- 🧍 Person Who I Admire: Elon Musk, Demis Hassabis, Fei-Fei Li -->
