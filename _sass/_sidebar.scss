@@ -79,8 +79,8 @@
 }
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
+  display: flex;
+  align-items: center;
   width: 75px;
   // set width only, for non-square avatars
   // height: 36px;
@@ -104,11 +104,12 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
   min-width: 120px;
-  line-height: 1;
+  line-height: 1.2;
 
   @include breakpoint($large) {
     display: block;
