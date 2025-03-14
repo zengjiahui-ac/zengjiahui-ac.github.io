@@ -21,8 +21,6 @@ redirect_from:
 <div class="cn-section">
   <h1 class="cn-section-title">关于我</h1>
   
-  <p>你好！我是谢锦翔。我目前是<i class="fas fa-university"></i> <strong>北京交通大学</strong>信息与计算科学专业的大四学生。我现在在<i class="fab fa-microsoft"></i> <strong>微软</strong>担任研究实习生，与首席研究员 <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a> 合作。</p>
-  
-  <p>此前，我很荣幸能在<i class="fas fa-university"></i> <strong>北京大学</strong>跟随<a href="https://wanxiaojun.github.io/">万小军</a>教授开展研究工作。</p>
+  <p>你好！我是谢锦翔。我目前是<strong>北京交通大学</strong>信息与计算科学专业的大四学生。我现在在<strong>微软</strong>担任研究实习生，与首席研究员Justin Ding合作。此前，我很荣幸能在<strong>北京大学</strong>跟随万小军教授开展研究工作。</p>
   
   <p>我已获得南京大学2025年秋季研究生项目的录取，这为我进一步深入研究提供了宝贵的机会。<strong>我正在积极寻找大语言模型应用和自然语言处理方向的研究助理机会</strong>。</p>
