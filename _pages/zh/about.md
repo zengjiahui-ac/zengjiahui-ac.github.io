@@ -26,34 +26,3 @@ redirect_from:
   <p>此前，我很荣幸能在<i class="fas fa-university"></i> <strong>北京大学</strong>跟随<a href="https://wanxiaojun.github.io/">万小军</a>教授开展研究工作。</p>
   
   <p>我已获得南京大学2025年秋季研究生项目的录取，这为我进一步深入研究提供了宝贵的机会。<strong>我正在积极寻找大语言模型应用和自然语言处理方向的研究助理机会</strong>。</p>
-  
-
-  <div class="highlight-blocks">
-    <div class="highlight-block">
-      <h3>🔬 AI 研究者</h3>
-      <ul>
-        <li>研究方向：大语言模型与自然语言处理</li>
-        <li>多个顶级机构实习经历</li>
-        <li>AAAI 2025 论文发表</li>
-      </ul>
-    </div>
-    
-    <div class="highlight-block">
-      <h3>✍️ 内容创作者</h3>
-      <ul>
-        <li>技术博客累计阅读量超50万</li>
-        <li>活跃于<a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e">小红书</a></li>
-        <li>运营<a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ">微信公众号</a>，分享科技与人文</li>
-      </ul>
-    </div>
-    
-    <div class="highlight-block">
-      <h3>🌎 生活探索者</h3>
-      <ul>
-        <li>游历7个国家</li>
-        <li>足迹遍布中国32个省份</li>
-        <li>丰富的社会工作与活动经验</li>
-      </ul>
-    </div>
-  </div>
-</div>
