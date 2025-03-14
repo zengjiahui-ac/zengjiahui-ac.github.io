@@ -152,6 +152,51 @@ layout: compress
           font-size: 2rem;
         }
       }
+
+      .tags-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .tag-badge {
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .tag-badge:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      .paper-box {
+        margin-top: 2rem;
+      }
+
+      .paper-box-text {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 2rem 0;
+      }
+
+      .paper-box-text:last-child {
+        border-bottom: none;
+      }
+
+      .paper-box-text h2 {
+        margin: 0.5rem 0;
+      }
+
+      #about {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .cn-section {
+        padding: 4rem 0;
+        scroll-margin-top: 6rem;
+      }
     </style>
   </head>
 
@@ -159,7 +204,7 @@ layout: compress
     <header class="cn-header">
       <a href="/" class="cn-logo">谢锦翔</a>
       <nav class="cn-nav">
-        <a href="#about-me" class="cn-nav-link">关于我</a>
+        <a href="#about" class="cn-nav-link">关于我</a>
         <a href="#life-logs" class="cn-nav-link">Life Logs</a>
         <a href="#tags" class="cn-nav-link">标签</a>
         <a href="{{ page.url | replace: '/zh/', '/' }}" class="cn-nav-link">EN</a>
@@ -167,12 +212,38 @@ layout: compress
     </header>
 
     <main class="cn-main">
-      <div class="cn-hero">
-        一个追随美的创作者，我结合在产品、市场上的经验去解决问题、讲故事、并创造激动人心的事物。
-      </div>
-      <article class="page">
-        {{ content }}
-      </article>
+      <section id="about" class="cn-section">
+        <div class="cn-hero">
+          一个追随美的创作者，我结合在产品、市场上的经验去解决问题、讲故事、并创造激动人心的事物。
+        </div>
+        <div class="cn-content">
+          {{ content }}
+        </div>
+      </section>
+
+      <section id="life-logs" class="cn-section">
+        <h2 class="cn-section-title">Life Logs</h2>
+        <div class="paper-box">
+          {% for post in site.posts %}
+            {% if post.categories contains 'life' %}
+              <div class="paper-box-text">
+                <span class="badge">{{ post.date | date: "%Y-%m-%d" }}</span>
+                <h2>{{ post.title }}</h2>
+                <p>{{ post.excerpt }}</p>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <section id="tags" class="cn-section">
+        <h2 class="cn-section-title">标签</h2>
+        <div class="tags-cloud">
+          {% for tag in site.tags %}
+            <a href="#{{ tag[0] }}" class="badge tag-badge">{{ tag[0] }} ({{ tag[1].size }})</a>
+          {% endfor %}
+        </div>
+      </section>
     </main>
 
     {% include scripts.html %}
