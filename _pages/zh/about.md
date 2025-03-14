@@ -60,50 +60,6 @@ redirect_from:
 </div>
 
 <div class="cn-section">
-  <h1 class="cn-section-title">🔥 最新动态</h1>
-  <ul>
-    <li><em>2024.12</em>: &nbsp;🎉🎉 一篇论文被第39届人工智能国际会议（AAAI 2025）录用。费城见！</li>
-    <li><em>2024.09</em>: &nbsp;我被南京大学匡亚明学院2025年秋季研究生项目录取。</li>
-    <li><em>2024.08</em>: &nbsp;我加入微软担任研究实习生，在首席研究员Justin Ding的指导下，专注于评估和增强大语言模型输出。</li>
-  </ul>
-</div>
-
-<div class="cn-section">
-  <h1 class="cn-section-title">📝 发表论文</h1>
-  <div class="paper-box">
-    <div class="paper-box-image">
-      <div>
-        <div class="badge">AAAI 2025</div>
-        <img src='images/Example_page-0001.png' alt="论文封面" width="100%">
-      </div>
-    </div>
-    <div class="paper-box-text">
-      <h2>DSGram: 大语言模型时代的动态加权语法错误纠正评估指标</h2>
-      <p><strong>谢金祥</strong>, 李一霖, 尹训健, 万小军</p>
-      <p>发表于第39届人工智能国际会议</p>
-      <p><a href="https://arxiv.org/abs/2412.12832">[论文]</a> <a href="https://github.com/jxtse/GEC-Metrics-DSGram">[代码]</a></p>
-    </div>
-  </div>
-</div>
-
-<div class="cn-section">
-  <h1 class="cn-section-title">📖 教育经历</h1>
-  <ul>
-    <li><em>2025.09 - 2028.06</em>: &nbsp;（预计）南京大学匡亚明学院，理学硕士</li>
-    <li><em>2021.09 - 2025.06</em>: &nbsp;北京交通大学，信息与计算科学专业，理学学士</li>
-  </ul>
-</div>
-
-<div class="cn-section">
-  <h1 class="cn-section-title">💻 实习经历</h1>
-  <ul>
-    <li><em>2024.08 - 至今</em>: &nbsp;研究实习生，<a href="https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/">数据、知识与智能组</a>，<strong>微软</strong></li>
-    <li><em>2023.11 - 2024.08</em>: &nbsp;研究实习生，<a href="https://sai.pku.edu.cn/znxyenglish/">北京大学王选计算机研究所</a>，<strong>北京大学</strong></li>
-    <li><em>2023.05 - 2023.07</em>: &nbsp;暑期工作坊学生，<a href="https://www.comp.nus.edu.sg/">计算机学院</a>，<strong>新加坡国立大学</strong></li>
-  </ul>
-</div>
-
-<div class="cn-section">
   <h1 class="cn-section-title">📚 博客文章</h1>
   
   <div class="paper-box">
