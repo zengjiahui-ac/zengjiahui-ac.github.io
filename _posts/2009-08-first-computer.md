@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "拥有第一台联想计算机"
-date: 2009-08
+date: 2009-08-01
 categories: life
 location: "Anhui, China"
 excerpt: "开始深入研究Computer Graphics"
