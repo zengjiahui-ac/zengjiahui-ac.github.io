@@ -1,0 +1,208 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <style>
+      :root {
+        --ink-color: #2c3e50;
+        --paper-color: #f9f6f2;
+        --accent-color: #8b4513;
+        --light-accent: #d4a682;
+      }
+
+      body {
+        background-color: var(--paper-color);
+        color: var(--ink-color);
+        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif;
+        line-height: 1.8;
+      }
+
+      .cn-masthead {
+        background: linear-gradient(to bottom, rgba(139, 69, 19, 0.05), transparent);
+        padding: 2em 0;
+        border-bottom: 1px solid rgba(139, 69, 19, 0.1);
+      }
+
+      .cn-nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .cn-nav-logo {
+        font-size: 1.8em;
+        color: var(--accent-color);
+        text-decoration: none;
+        font-weight: 300;
+      }
+
+      .cn-nav-links {
+        display: flex;
+        gap: 2em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cn-nav-link {
+        color: var(--ink-color);
+        text-decoration: none;
+        position: relative;
+        padding: 0.5em 0;
+        font-size: 1.1em;
+        transition: color 0.3s ease;
+      }
+
+      .cn-nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 50%;
+        background-color: var(--accent-color);
+        transition: all 0.3s ease;
+      }
+
+      .cn-nav-link:hover {
+        color: var(--accent-color);
+      }
+
+      .cn-nav-link:hover::after {
+        width: 100%;
+        left: 0;
+      }
+
+      .cn-main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3em 2em;
+      }
+
+      .cn-section {
+        margin-bottom: 4em;
+      }
+
+      .cn-section-title {
+        font-size: 2em;
+        color: var(--accent-color);
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid var(--light-accent);
+        position: relative;
+      }
+
+      .cn-section-title::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100px;
+        height: 2px;
+        background-color: var(--accent-color);
+      }
+
+      .highlight-blocks {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2em;
+        margin: 2em 0;
+      }
+
+      .highlight-block {
+        background: white;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+      }
+
+      .highlight-block:hover {
+        transform: translateY(-5px);
+      }
+
+      .highlight-block h3 {
+        color: var(--accent-color);
+        margin-bottom: 1em;
+      }
+
+      .paper-box {
+        background: white;
+        padding: 2em;
+        border-radius: 8px;
+        margin-bottom: 2em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+      }
+
+      .paper-box:hover {
+        transform: translateY(-5px);
+      }
+
+      .lang-switch {
+        position: fixed;
+        top: 2em;
+        right: 2em;
+        padding: 0.5em 1em;
+        background-color: white;
+        border: 1px solid var(--light-accent);
+        color: var(--accent-color);
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+
+      .lang-switch:hover {
+        background-color: var(--accent-color);
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+        .cn-nav {
+          flex-direction: column;
+          gap: 1em;
+        }
+
+        .cn-nav-links {
+          flex-direction: column;
+          align-items: center;
+          gap: 1em;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="cn-masthead">
+      <nav class="cn-nav">
+        <a href="#about-me" class="cn-nav-logo">谢金祥</a>
+        <ul class="cn-nav-links">
+          <li><a href="#about-me" class="cn-nav-link">关于我</a></li>
+          <li><a href="#-news" class="cn-nav-link">最新动态</a></li>
+          <li><a href="#-publications" class="cn-nav-link">发表论文</a></li>
+          <li><a href="#-educations" class="cn-nav-link">教育经历</a></li>
+          <li><a href="#-internships" class="cn-nav-link">实习经历</a></li>
+          <li><a href="#-blogs" class="cn-nav-link">博客文章</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cn-main">
+      <article class="page">
+        {{ content }}
+      </article>
+    </div>
+
+    <a href="{{ page.url | replace: '/zh/', '/' }}" class="lang-switch">English Version</a>
+
+    {% include scripts.html %}
+  </body>
+</html> 
