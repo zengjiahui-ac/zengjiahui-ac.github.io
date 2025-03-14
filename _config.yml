@@ -80,10 +80,12 @@ t:
     blogs: "Blogs"
   zh:
     home: "首页"
-    about: "关于"
+    about: "关于我"
+    news: "最新动态"
     publications: "发表论文"
-    projects: "项目"
-    contact: "联系方式"
+    educations: "教育经历"
+    internships: "实习经历"
+    blogs: "博客文章"
 
 # Reading Files
 include:
