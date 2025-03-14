@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "拥有第一台Dell计算机"
-date: 2005-01-01
+title: "拥有第一台联想计算机"
+date: 2009-08
 categories: life
-location: "Henan, China"
+location: "Anhui, China"
 excerpt: "开始深入研究Computer Graphics"
 ---
 
