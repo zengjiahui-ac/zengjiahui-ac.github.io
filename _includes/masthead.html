@@ -22,9 +22,9 @@
           {% endfor %}
           <li class="masthead__menu-item">
             {% if page.url contains '/zh/' %}
-              <a href="{{ page.url | replace: '/zh/', '/' }}" class="language-switch">English</a>
+              <a href="{{ page.url | replace: '/zh/', '/' }}">English</a>
             {% else %}
-              <a href="/zh{{ page.url }}" class="language-switch">中文</a>
+              <a href="/zh{{ page.url }}">中文</a>
             {% endif %}
           </li>
         </ul>
