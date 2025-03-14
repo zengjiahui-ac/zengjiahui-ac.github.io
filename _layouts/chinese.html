@@ -23,6 +23,7 @@ layout: compress
         margin: 0;
         padding: 0;
         font-size: 16px;
+        scroll-behavior: smooth;
       }
 
       .cn-header {
@@ -187,10 +188,7 @@ layout: compress
       }
 
       #about {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin-top: 2rem;
       }
 
       .cn-section {
@@ -202,7 +200,7 @@ layout: compress
 
   <body>
     <header class="cn-header">
-      <a href="/" class="cn-logo">谢锦翔</a>
+      <a href="/" class="cn-logo">谢锦翔 Richard</a>
       <nav class="cn-nav">
         <a href="#about" class="cn-nav-link">关于我</a>
         <a href="#life-logs" class="cn-nav-link">Life Logs</a>
@@ -214,7 +212,7 @@ layout: compress
     <main class="cn-main">
       <section id="about" class="cn-section">
         <div class="cn-hero">
-          一个追随美的创作者，我结合在产品、市场上的经验去解决问题、讲故事、并创造激动人心的事物。
+          一个追随美的AI探索者，我结合在产品、市场上的经验去解决问题、讲故事、并创造激动人心的事物。
         </div>
         <div class="cn-content">
           {{ content }}
