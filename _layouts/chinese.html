@@ -9,186 +9,125 @@ layout: compress
     {% include head/custom.html %}
     <style>
       :root {
-        --ink-color: #2c3e50;
-        --paper-color: #fdfbf7;
-        --accent-color: #9b4922;
-        --light-accent: #e2c4b4;
-        --text-color: #4a4a4a;
+        --bg-color: #000000;
+        --text-color: #ffffff;
+        --text-secondary: rgba(255, 255, 255, 0.7);
+        --spacing: clamp(3rem, 8vw, 10rem);
       }
 
       body {
-        background-color: var(--paper-color);
+        background-color: var(--bg-color);
         color: var(--text-color);
-        font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif;
-        line-height: 1.8;
+        font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
         margin: 0;
         padding: 0;
+        font-size: 16px;
       }
 
       .cn-header {
-        position: relative;
-        padding: 4em 0 2em;
-        text-align: center;
-        background: linear-gradient(135deg, rgba(155, 73, 34, 0.05) 0%, rgba(226, 196, 180, 0.05) 100%);
-        border-bottom: 1px solid rgba(155, 73, 34, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem var(--spacing);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        background: var(--bg-color);
       }
 
-      .cn-header-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 2em;
-      }
-
-      .cn-title {
-        font-size: 2.5em;
-        color: var(--accent-color);
-        margin: 0 0 0.5em;
-        font-weight: 300;
+      .cn-logo {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-decoration: none;
+        color: var(--text-color);
       }
 
       .cn-nav {
         display: flex;
-        justify-content: center;
-        gap: 3em;
-        margin-top: 2em;
+        gap: 2rem;
       }
 
       .cn-nav-link {
-        color: var(--text-color);
+        color: var(--text-secondary);
         text-decoration: none;
-        font-size: 1.1em;
-        position: relative;
+        font-size: 1rem;
         transition: color 0.3s ease;
       }
 
-      .cn-nav-link::after {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 1px;
-        bottom: -4px;
-        left: 50%;
-        background-color: var(--accent-color);
-        transition: all 0.3s ease;
-      }
-
       .cn-nav-link:hover {
-        color: var(--accent-color);
-      }
-
-      .cn-nav-link:hover::after {
-        width: 100%;
-        left: 0;
+        color: var(--text-color);
       }
 
       .cn-main {
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 4em 2em;
+        padding: calc(var(--spacing) * 2) var(--spacing) var(--spacing);
+      }
+
+      .cn-hero {
+        font-size: clamp(2rem, 5vw, 4rem);
+        line-height: 1.3;
+        margin-bottom: var(--spacing);
+        max-width: 1200px;
+      }
+
+      .cn-content {
+        color: var(--text-secondary);
+        font-size: 1.125rem;
+        max-width: 800px;
+        margin-bottom: var(--spacing);
       }
 
       .cn-section {
-        margin-bottom: 6em;
-      }
-
-      .cn-section:last-child {
-        margin-bottom: 0;
+        margin-bottom: var(--spacing);
       }
 
       .cn-section-title {
-        font-size: 1.8em;
-        color: var(--accent-color);
-        margin-bottom: 1.5em;
-        font-weight: 400;
-        position: relative;
-        padding-left: 1em;
-      }
-
-      .cn-section-title::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 4px;
-        height: 1.2em;
-        background-color: var(--accent-color);
-        transform: translateY(-50%);
-      }
-
-      .highlight-blocks {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 2em;
-        margin: 2em 0;
-      }
-
-      .highlight-block {
-        background: white;
-        padding: 2em;
-        border-radius: 12px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-        transition: all 0.3s ease;
-      }
-
-      .highlight-block:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
-      }
-
-      .highlight-block h3 {
-        color: var(--accent-color);
-        margin: 0 0 1em;
+        font-size: 1.25rem;
+        color: var(--text-color);
+        margin-bottom: 1.5rem;
         font-weight: 500;
       }
 
       .paper-box {
         display: grid;
-        grid-template-columns: 250px 1fr;
-        gap: 2em;
-        background: white;
-        padding: 2em;
-        border-radius: 12px;
-        margin-bottom: 2em;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-        transition: all 0.3s ease;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
       }
 
-      .paper-box:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
-      }
-
-      .paper-box-image img {
-        border-radius: 8px;
-        width: 100%;
-        height: auto;
+      .paper-box:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       }
 
       .paper-box-text h2 {
-        color: var(--accent-color);
-        margin: 0 0 1em;
-        font-size: 1.4em;
+        font-size: 1.5rem;
+        color: var(--text-color);
+        margin: 0 0 1rem;
         font-weight: 500;
+      }
+
+      .paper-box-text p {
+        color: var(--text-secondary);
+        margin: 0 0 1rem;
       }
 
       .badge {
         display: inline-block;
-        padding: 0.3em 0.8em;
-        background-color: var(--accent-color);
-        color: white;
-        border-radius: 4px;
-        font-size: 0.9em;
-        margin-bottom: 1em;
+        padding: 0.25rem 0.75rem;
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--text-color);
+        border-radius: 3px;
+        font-size: 0.875rem;
+        margin-bottom: 1rem;
       }
 
       .lang-switch {
-        position: absolute;
-        top: 2em;
-        right: 2em;
-        padding: 0.5em 1em;
-        color: var(--accent-color);
+        color: var(--text-secondary);
         text-decoration: none;
-        font-size: 0.9em;
+        font-size: 1rem;
         transition: color 0.3s ease;
       }
 
@@ -197,23 +136,20 @@ layout: compress
       }
 
       @media (max-width: 768px) {
+        :root {
+          --spacing: 1.5rem;
+        }
+
         .cn-header {
-          padding: 3em 0 1.5em;
+          padding: 1.5rem var(--spacing);
         }
 
         .cn-nav {
-          flex-direction: column;
-          gap: 1em;
-          align-items: center;
+          display: none;
         }
 
-        .paper-box {
-          grid-template-columns: 1fr;
-        }
-
-        .lang-switch {
-          top: 1em;
-          right: 1em;
+        .cn-hero {
+          font-size: 2rem;
         }
       }
     </style>
@@ -221,25 +157,26 @@ layout: compress
 
   <body>
     <header class="cn-header">
-      <div class="cn-header-content">
-        <h1 class="cn-title">谢金祥</h1>
-        <nav class="cn-nav">
-          <a href="#about-me" class="cn-nav-link">关于我</a>
-          <a href="#-news" class="cn-nav-link">最新动态</a>
-          <a href="#-publications" class="cn-nav-link">发表论文</a>
-          <a href="#-educations" class="cn-nav-link">教育经历</a>
-          <a href="#-internships" class="cn-nav-link">实习经历</a>
-          <a href="#-blogs" class="cn-nav-link">博客文章</a>
-        </nav>
-      </div>
-      <a href="{{ page.url | replace: '/zh/', '/' }}" class="lang-switch">English</a>
+      <a href="/" class="cn-logo">谢金祥</a>
+      <nav class="cn-nav">
+        <a href="#about-me" class="cn-nav-link">关于我</a>
+        <a href="#-news" class="cn-nav-link">最新动态</a>
+        <a href="#-publications" class="cn-nav-link">发表论文</a>
+        <a href="#-educations" class="cn-nav-link">教育经历</a>
+        <a href="#-internships" class="cn-nav-link">实习经历</a>
+        <a href="#-blogs" class="cn-nav-link">博客文章</a>
+        <a href="{{ page.url | replace: '/zh/', '/' }}" class="cn-nav-link">EN</a>
+      </nav>
     </header>
 
-    <div class="cn-main">
+    <main class="cn-main">
+      <div class="cn-hero">
+        一个追随美的创作者，我结合在产品、市场上的经验去解决问题、讲故事、并创造激动人心的事物。
+      </div>
       <article class="page">
         {{ content }}
       </article>
-    </div>
+    </main>
 
     {% include scripts.html %}
   </body>
