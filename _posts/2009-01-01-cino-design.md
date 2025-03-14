@@ -7,4 +7,3 @@ location: "Anhui, China"
 excerpt: "开始折腾刷机、拆机和学习编程"
 ---
 
-成立了自己的设计工作室Cino Design，开始为企业提供专业服务。这是我迈向职业化的重要一步。 
