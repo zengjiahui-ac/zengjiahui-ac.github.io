@@ -27,7 +27,6 @@ redirect_from:
   
   <p>我已获得南京大学2025年秋季研究生项目的录取，这为我进一步深入研究提供了宝贵的机会。<strong>我正在积极寻找大语言模型应用和自然语言处理方向的研究助理机会</strong>。</p>
   
-  <p>欢迎联系我，或查看<a href="assets/Jinxiang's CV.pdf">我的简历</a>了解更多信息。</p>
 
   <div class="highlight-blocks">
     <div class="highlight-block">
