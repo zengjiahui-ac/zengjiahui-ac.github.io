@@ -11,13 +11,13 @@ layout: compress
       :root {
         --bg-gradient-1: #1a1a2e;
         --bg-gradient-2: #16213e;
-        --accent-color: #4d7cff;
-        --accent-color-light: #6b8fff;
+        --accent-color: #167C80;
+        --accent-color-light: #1A9599;
         --text-color: #ffffff;
         --text-secondary: rgba(255, 255, 255, 0.85);
-        --card-bg: rgba(255, 255, 255, 0.07);
-        --card-hover: rgba(255, 255, 255, 0.1);
-        --timeline-color: #4d7cff;
+        --card-bg: rgba(22, 124, 128, 0.15);
+        --card-hover: rgba(22, 124, 128, 0.25);
+        --timeline-color: #167C80;
         --spacing: clamp(3rem, 8vw, 10rem);
       }
 
@@ -117,10 +117,10 @@ layout: compress
 
       .cn-section-title {
         font-size: 1.25rem;
-        color: var(--text-color);
+        color: #FFFFFF;
         margin-bottom: 1.5rem;
         font-weight: 500;
-        background: linear-gradient(45deg, var(--accent-color), var(--accent-color-light));
+        background: #167C80;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -158,15 +158,15 @@ layout: compress
         top: 2rem;
         width: 0.8rem;
         height: 0.8rem;
-        background: var(--accent-color);
+        background: #167C80;
         border-radius: 50%;
-        box-shadow: 0 0 0 4px rgba(77, 124, 255, 0.2);
+        box-shadow: 0 0 0 4px rgba(22, 124, 128, 0.2);
         transition: all 0.3s ease;
       }
 
       .paper-box-text:hover::before {
-        background: var(--accent-color-light);
-        box-shadow: 0 0 0 6px rgba(77, 124, 255, 0.3);
+        background: #1A9599;
+        box-shadow: 0 0 0 6px rgba(22, 124, 128, 0.3);
       }
 
       .paper-box-text h2 {
@@ -182,21 +182,21 @@ layout: compress
       }
 
       .post-location {
-        color: var(--accent-color-light);
+        color: #167C80;
         font-size: 0.9rem;
         margin-top: 1rem;
       }
 
       .badge {
-        background: linear-gradient(45deg, var(--accent-color), var(--accent-color-light));
-        color: var(--text-color);
+        background: #167C80;
+        color: #FFFFFF;
         font-weight: 500;
         padding: 0.4rem 1rem;
         border-radius: 20px;
         font-size: 0.875rem;
         margin-bottom: 1rem;
         display: inline-block;
-        box-shadow: 0 2px 8px rgba(77, 124, 255, 0.2);
+        box-shadow: 0 2px 8px rgba(22, 124, 128, 0.3);
       }
 
       .lang-switch {
@@ -248,8 +248,9 @@ layout: compress
       }
 
       .tag-badge:hover {
-        background: var(--accent-color);
-        border-color: var(--accent-color);
+        background: #167C80;
+        border-color: #167C80;
+        color: #FFFFFF;
       }
 
       .paper-box {
