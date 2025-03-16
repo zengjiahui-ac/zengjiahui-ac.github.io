@@ -135,6 +135,18 @@ layout: compress
         border-left: 2px solid var(--timeline-color);
       }
 
+      .paper-box::after {
+        content: '';
+        position: absolute;
+        left: -0.4rem;
+        bottom: 0;
+        width: 0.8rem;
+        height: 0.8rem;
+        background: var(--timeline-color);
+        border-radius: 50%;
+        box-shadow: 0 0 0 4px rgba(22, 124, 128, 0.2);
+      }
+
       .paper-box-text {
         position: relative;
         padding: 1.5rem;
@@ -316,6 +328,23 @@ layout: compress
         padding: 4rem 0;
         scroll-margin-top: 6rem;
       }
+
+      .timeline-end {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        opacity: 0.7;
+        font-style: italic;
+      }
+
+      .timeline-end::before {
+        content: '✦ ✦ ✦';
+        display: block;
+        margin-bottom: 0.5rem;
+        color: var(--accent-color);
+      }
     </style>
   </head>
 
@@ -366,6 +395,9 @@ layout: compress
               </div>
             {% endif %}
           {% endfor %}
+        </div>
+        <div class="timeline-end">
+          未完待续，精彩继续...
         </div>
       </section>
 
