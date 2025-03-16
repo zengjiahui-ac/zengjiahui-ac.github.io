@@ -143,6 +143,23 @@ layout: compress
         margin-bottom: 1.5rem;
         transition: all 0.3s ease;
         border: 1px solid rgba(255, 255, 255, 0.05);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 1rem;
+      }
+
+      .paper-box-content {
+        grid-column: 1;
+      }
+
+      .paper-box-meta {
+        grid-column: 2;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        min-width: 120px;
       }
 
       .paper-box-text:hover {
@@ -187,6 +204,14 @@ layout: compress
         color: #167C80;
         font-size: 0.85rem;
         margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .post-location:before {
+        content: '📍';
+        margin-right: 0.25rem;
       }
 
       .badge {
@@ -330,10 +355,14 @@ layout: compress
           {% for post in sorted_posts %}
             {% if post.categories contains 'life' %}
               <div class="paper-box-text">
-                <span class="badge">{{ post.date | date: "%Y年%m月" }}</span>
-                <h2>{{ post.title }}</h2>
-                <p>{{ post.excerpt }}</p>
-                <div class="post-location">{{ post.location }}</div>
+                <div class="paper-box-content">
+                  <h2>{{ post.title }}</h2>
+                  <p>{{ post.excerpt }}</p>
+                </div>
+                <div class="paper-box-meta">
+                  <span class="badge">{{ post.date | date: "%Y年%m月" }}</span>
+                  <div class="post-location">{{ post.location }}</div>
+                </div>
               </div>
             {% endif %}
           {% endfor %}
