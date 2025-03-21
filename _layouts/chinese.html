@@ -409,12 +409,16 @@ layout: compress
       .about-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4rem;
+        grid-template-areas: 
+          "image content"
+          "second-image content";
+        gap: 3rem 4rem;
         align-items: flex-start;
         margin-top: 3rem;
       }
 
       .about-image {
+        grid-area: image;
         width: 100%;
         aspect-ratio: 4/3;
         overflow: hidden;
@@ -426,7 +430,7 @@ layout: compress
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 6rem;
+        margin-bottom: 0;
       }
 
       .about-image::before {
@@ -462,6 +466,47 @@ layout: compress
       }
 
       .about-image:hover img {
+        transform: scale(1.05);
+      }
+
+      .second-image {
+        grid-area: second-image;
+        width: 100%;
+        aspect-ratio: 16/9;
+        overflow: hidden;
+        border-radius: 12px;
+        position: relative;
+        transform-style: preserve-3d;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        animation: float 6s ease-in-out infinite;
+        animation-delay: 2s;
+      }
+
+      .second-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(22, 124, 128, 0.3), transparent);
+        z-index: 1;
+      }
+
+      .second-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: all 0.5s ease;
+        transform: translateZ(0);
+      }
+
+      .second-image:hover img {
         transform: scale(1.05);
       }
 
@@ -658,6 +703,10 @@ layout: compress
 
         .about-grid {
           grid-template-columns: 1fr;
+          grid-template-areas: 
+            "image"
+            "second-image"
+            "content";
           gap: 2rem;
         }
         
@@ -831,6 +880,9 @@ layout: compress
             <div class="cn-content">
               {{ content }}
             </div>
+          </div>
+          <div class="second-image">
+            <img src="https://jinxxie-1259409242.cos.ap-nanjing.myqcloud.com/微信图片_2025-03-21_164407_543.jpg" alt="second picture">
           </div>
         </div>
       </section>
