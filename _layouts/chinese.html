@@ -663,6 +663,14 @@ layout: compress
         
         .about-content {
           padding-top: 1rem;
+          order: 2;
+        }
+        
+        .about-image {
+          margin-top: 2rem;
+          order: 1;
+          aspect-ratio: 16/9;
+          margin-bottom: 1rem;
         }
 
         .paper-box-text {
@@ -716,6 +724,81 @@ layout: compress
           transform: rotate(-45deg) translate(7px, -7px);
         }
       }
+
+      /* 新增关于我页面样式 */
+      .about-section {
+        margin-bottom: 2.5rem;
+        border-left: 3px solid var(--accent-color);
+        padding-left: 1.5rem;
+        position: relative;
+        animation: fadeIn 0.8s ease-out both;
+      }
+
+      .about-section h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        color: var(--text-color);
+        font-weight: 500;
+      }
+
+      .about-section h3 i {
+        color: var(--accent-color-light);
+        margin-right: 0.5rem;
+      }
+
+      .about-section p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+      }
+
+      .research-list, .interest-list {
+        list-style: none;
+        padding-left: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .research-list li, .interest-list li {
+        position: relative;
+        padding: 0.5rem 0;
+        margin-bottom: 0.5rem;
+        color: var(--text-secondary);
+      }
+
+      .research-list li::before, .interest-list li::before {
+        content: '▹';
+        position: absolute;
+        left: -1.5rem;
+        color: var(--accent-color);
+      }
+
+      .research-list li:hover, .interest-list li:hover {
+        transform: translateX(5px);
+        color: var(--text-color);
+      }
+
+      .research-list li, .interest-list li {
+        transition: all 0.3s ease;
+      }
+
+      .about-section strong {
+        color: var(--accent-color-light);
+        font-weight: 600;
+      }
+
+      /* 响应式样式调整 */
+      @media (max-width: 768px) {
+        .about-section {
+          padding-left: 1rem;
+        }
+        
+        .research-list, .interest-list {
+          padding-left: 1rem;
+        }
+        
+        .research-list li::before, .interest-list li::before {
+          left: -1rem;
+        }
+      }
     </style>
   </head>
 
@@ -731,7 +814,6 @@ layout: compress
         <a href="#about" class="cn-nav-link micro-interaction">关于我</a>
         <a href="#life-logs" class="cn-nav-link micro-interaction">Life Logs</a>
         <a href="#tags" class="cn-nav-link micro-interaction">标签</a>
-        <a href="{{ page.url | replace: '/zh/', '/' }}" class="cn-nav-link lang-switch">EN</a>
       </nav>
     </header>
 
