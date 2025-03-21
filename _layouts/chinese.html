@@ -13,16 +13,56 @@ layout: compress
         --bg-gradient-2: #16213e;
         --accent-color: #167C80;
         --accent-color-light: #1A9599;
+        --accent-color-hover: #20b2b7;
         --text-color: #ffffff;
         --text-secondary: rgba(255, 255, 255, 0.85);
         --card-bg: rgba(22, 124, 128, 0.15);
         --card-hover: rgba(22, 124, 128, 0.25);
         --timeline-color: #167C80;
         --spacing: clamp(3rem, 8vw, 10rem);
+        --secondary-accent: #e94560;
+        --tertiary-accent: #f9c74f;
+      }
+
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
 
       body {
         background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%);
+        background-size: 200% 200%;
+        animation: gradientAnimation 15s ease infinite;
         color: var(--text-color);
         font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         line-height: 1.6;
@@ -31,6 +71,7 @@ layout: compress
         font-size: 16px;
         scroll-behavior: smooth;
         min-height: 100vh;
+        overflow-x: hidden;
       }
 
       .cn-header {
@@ -38,14 +79,21 @@ layout: compress
         top: 0;
         left: 0;
         right: 0;
-        padding: 2rem var(--spacing);
+        padding: 1.5rem var(--spacing);
         display: flex;
         justify-content: space-between;
         align-items: center;
         z-index: 1000;
         background: rgba(26, 26, 46, 0.8);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(15px);
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        transform: translateZ(0);
+        transition: all 0.3s ease;
+      }
+
+      .cn-header.scrolled {
+        padding: 1rem var(--spacing);
+        background: rgba(26, 26, 46, 0.95);
       }
 
       .cn-logo {
@@ -56,7 +104,28 @@ layout: compress
         font-size: 1.5rem;
         font-weight: 600;
         text-decoration: none;
-        color: var(--text-color);
+        position: relative;
+        display: inline-block;
+        transition: all 0.3s ease;
+      }
+
+      .cn-logo:hover {
+        transform: scale(1.05);
+      }
+
+      .cn-logo::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(45deg, var(--accent-color), var(--accent-color-light));
+        transition: width 0.3s ease;
+      }
+
+      .cn-logo:hover::after {
+        width: 100%;
       }
 
       .cn-nav {
@@ -68,15 +137,32 @@ layout: compress
         color: var(--text-secondary);
         text-decoration: none;
         font-size: 1rem;
-        transition: color 0.3s ease;
+        transition: all 0.3s ease;
+        position: relative;
+        padding: 0.5rem 0;
+      }
+
+      .cn-nav-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background: var(--accent-color-light);
+        transition: width 0.3s ease;
       }
 
       .cn-nav-link:hover {
         color: var(--text-color);
       }
 
+      .cn-nav-link:hover::after {
+        width: 100%;
+      }
+
       .cn-main {
-        padding: calc(var(--spacing)) var(--spacing) var(--spacing);
+        padding: calc(var(--spacing) + 4rem) var(--spacing) var(--spacing);
       }
 
       .cn-hero {
@@ -84,7 +170,6 @@ layout: compress
         line-height: 1.5;
         margin-bottom: 4rem;
         color: var(--text-secondary);
-        text-align: center;
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
@@ -93,6 +178,9 @@ layout: compress
         background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 600;
+        position: relative;
+        animation: fadeIn 1s ease-out;
+        text-align: left;
       }
 
       .cn-hero .author {
@@ -102,6 +190,18 @@ layout: compress
         text-align: right;
         color: var(--accent-color-light);
         -webkit-text-fill-color: initial;
+        transition: all 0.3s ease;
+      }
+
+      .cn-hero::before {
+        content: """;
+        position: absolute;
+        top: -3rem;
+        left: -2rem;
+        font-size: 8rem;
+        line-height: 1;
+        color: rgba(22, 124, 128, 0.1);
+        -webkit-text-fill-color: rgba(22, 124, 128, 0.1);
       }
 
       .cn-content {
@@ -109,24 +209,40 @@ layout: compress
         font-size: 1.125rem;
         max-width: 800px;
         margin-bottom: var(--spacing);
+        animation: fadeIn 1s ease-out 0.3s both;
       }
 
       .cn-section {
         margin-bottom: var(--spacing);
+        position: relative;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.8s ease;
+      }
+
+      .cn-section.visible {
+        opacity: 1;
+        transform: translateY(0);
       }
 
       .cn-section-title {
-        font-size: 1.25rem;
-        color: #FFFFFF;
-        margin-bottom: 1.5rem;
-        font-weight: 500;
-        background: #167C80;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
         font-size: 1.5rem;
-        font-weight: 600;
+        color: #FFFFFF;
         margin-bottom: 2rem;
+        font-weight: 600;
+        position: relative;
+        display: inline-block;
+      }
+
+      .cn-section-title::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 50px;
+        height: 3px;
+        background: linear-gradient(90deg, var(--accent-color), var(--accent-color-light));
+        border-radius: 2px;
       }
 
       .paper-box {
@@ -151,13 +267,19 @@ layout: compress
         position: relative;
         padding: 1.5rem;
         background: var(--card-bg);
-        border-radius: 10px;
+        border-radius: 12px;
         margin-bottom: 1.5rem;
-        transition: all 0.3s ease;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         border: 1px solid rgba(255, 255, 255, 0.05);
         display: grid;
         grid-template-columns: 1fr auto;
         grid-gap: 1rem;
+        transform: perspective(1000px) rotateX(0deg);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.5s forwards;
+        animation-delay: calc(var(--item-index) * 0.1s);
       }
 
       .paper-box-content {
@@ -176,8 +298,8 @@ layout: compress
 
       .paper-box-text:hover {
         background: var(--card-hover);
-        transform: translateY(-2px);
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        transform: perspective(1000px) rotateX(2deg) translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
       }
 
       .paper-box-text::before {
@@ -195,7 +317,7 @@ layout: compress
 
       .paper-box-text:hover::before {
         background: #1A9599;
-        box-shadow: 0 0 0 6px rgba(22, 124, 128, 0.3);
+        box-shadow: 0 0 12px rgba(22, 124, 128, 0.6), 0 0 0 6px rgba(22, 124, 128, 0.3);
       }
 
       .paper-box-text h2 {
@@ -203,6 +325,11 @@ layout: compress
         color: var(--text-color);
         margin: 0 0 0.5rem;
         font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      .paper-box-text:hover h2 {
+        color: var(--accent-color-light);
       }
 
       .paper-box-text p {
@@ -219,11 +346,17 @@ layout: compress
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        transition: all 0.3s ease;
+      }
+
+      .paper-box-text:hover .post-location {
+        color: var(--accent-color-hover);
       }
 
       .post-location:before {
-        content: '';
-        margin-right: 0;
+        content: '📍';
+        margin-right: 0.3rem;
+        font-size: 0.9rem;
       }
 
       .badge {
@@ -236,6 +369,12 @@ layout: compress
         margin-bottom: 0.75rem;
         display: inline-block;
         box-shadow: 0 2px 8px rgba(22, 124, 128, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .paper-box-text:hover .badge {
+        background: var(--accent-color-hover);
+        box-shadow: 0 3px 10px rgba(22, 124, 128, 0.5);
       }
 
       .lang-switch {
@@ -243,33 +382,15 @@ layout: compress
         text-decoration: none;
         font-size: 1rem;
         transition: color 0.3s ease;
+        position: relative;
+        padding: 0.3rem 0.8rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
       }
 
       .lang-switch:hover {
         color: var(--text-color);
-      }
-
-      @media (max-width: 768px) {
-        :root {
-          --spacing: 1.5rem;
-        }
-
-        .cn-header {
-          padding: 1.5rem var(--spacing);
-        }
-
-        .cn-nav {
-          display: none;
-        }
-
-        .cn-hero {
-          font-size: 2rem;
-        }
-
-        .about-grid {
-          grid-template-columns: 1fr;
-          gap: 2rem;
-        }
+        background: rgba(255, 255, 255, 0.1);
       }
 
       .tags-cloud {
@@ -284,12 +405,15 @@ layout: compress
         transition: all 0.3s ease;
         background: var(--card-bg);
         border: 1px solid rgba(255, 255, 255, 0.1);
+        transform: translateZ(0);
       }
 
       .tag-badge:hover {
         background: #167C80;
         border-color: #167C80;
         color: #FFFFFF;
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(22, 124, 128, 0.4);
       }
 
       .paper-box {
@@ -309,12 +433,41 @@ layout: compress
         grid-template-columns: 1fr 1fr;
         gap: 4rem;
         align-items: start;
+        margin-top: 3rem;
       }
 
       .about-image {
         width: 100%;
         aspect-ratio: 4/3;
         overflow: hidden;
+        border-radius: 12px;
+        position: relative;
+        transform-style: preserve-3d;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .about-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(22, 124, 128, 0.3), transparent);
+        z-index: 1;
+      }
+
+      .about-image::after {
+        content: '';
+        position: absolute;
+        top: -10%;
+        right: -10%;
+        width: 50%;
+        height: 50%;
+        background: radial-gradient(circle, rgba(249, 199, 79, 0.2), transparent 70%);
+        z-index: 0;
+        border-radius: 50%;
       }
 
       .about-image img {
@@ -322,6 +475,12 @@ layout: compress
         height: 100%;
         object-fit: cover;
         display: block;
+        transition: all 0.5s ease;
+        transform: translateZ(0);
+      }
+
+      .about-image:hover img {
+        transform: scale(1.05);
       }
 
       .cn-section {
@@ -337,6 +496,7 @@ layout: compress
         margin-bottom: 3rem;
         opacity: 0.7;
         font-style: normal;
+        position: relative;
       }
 
       .timeline-end::before {
@@ -344,6 +504,257 @@ layout: compress
         display: block;
         margin-bottom: 0.5rem;
         color: var(--accent-color);
+        animation: float 4s ease-in-out infinite;
+      }
+
+      /* 移动端适配 */
+      @media (max-width: 768px) {
+        :root {
+          --spacing: 1.5rem;
+        }
+
+        .cn-header {
+          padding: 1.5rem var(--spacing);
+        }
+
+        .cn-logo {
+          font-size: 1.2rem;
+        }
+
+        .cn-nav {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: flex;
+          justify-content: space-around;
+          gap: 0;
+          padding: 1rem;
+          background: rgba(26, 26, 46, 0.95);
+          backdrop-filter: blur(10px);
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+          z-index: 1000;
+        }
+
+        .cn-nav-link {
+          font-size: 0.9rem;
+          padding: 0.5rem;
+        }
+
+        .cn-nav-link::after {
+          bottom: 0;
+        }
+
+        .cn-hero {
+          font-size: 1.5rem;
+          margin-top: -2rem;
+        }
+
+        .cn-hero::before {
+          font-size: 5rem;
+          top: -2rem;
+          left: -1rem;
+        }
+
+        .about-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .paper-box-text {
+          grid-template-columns: 1fr;
+        }
+
+        .paper-box-meta {
+          grid-column: 1;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 1rem;
+        }
+
+        .badge {
+          margin-bottom: 0;
+        }
+      }
+
+      /* 3D 效果 */
+      .threed-button {
+        position: relative;
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        background: linear-gradient(45deg, var(--accent-color), var(--accent-color-light));
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(22, 124, 128, 0.3);
+        transform: translateZ(0);
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-weight: 500;
+        margin-top: 1.5rem;
+        overflow: hidden;
+      }
+
+      .threed-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(22, 124, 128, 0.4);
+      }
+
+      .threed-button::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+      }
+
+      .threed-button:hover::after {
+        transform: translateX(0);
+      }
+
+      /* 微交互 */
+      .micro-interaction {
+        position: relative;
+        cursor: pointer;
+      }
+
+      .micro-interaction::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        transform: scale(0);
+        opacity: 0;
+        z-index: -1;
+      }
+
+      .micro-interaction:active::after {
+        animation: ripple 0.6s linear;
+      }
+
+      @keyframes ripple {
+        0% {
+          transform: scale(0);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(2.5);
+          opacity: 0;
+        }
+      }
+
+      /* 滚动提示 */
+      .scroll-indicator {
+        position: absolute;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 50px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        animation: fadeIn 1s ease-out 1.5s forwards;
+      }
+
+      .scroll-indicator::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        background: white;
+        border-radius: 50%;
+        margin-top: 10px;
+        animation: scrollDown 1.5s infinite;
+      }
+
+      @keyframes scrollDown {
+        0% {
+          opacity: 0;
+          transform: translateY(0);
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+      }
+
+      /* 导航菜单显示按钮 */
+      .menu-toggle {
+        display: none;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .menu-toggle span {
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: var(--text-color);
+        border-radius: 2px;
+        transition: all 0.3s ease;
+      }
+
+      .menu-toggle span:nth-child(1) {
+        top: 0;
+      }
+
+      .menu-toggle span:nth-child(2) {
+        top: 9px;
+      }
+
+      .menu-toggle span:nth-child(3) {
+        top: 18px;
+      }
+
+      @media (max-width: 768px) {
+        .menu-toggle {
+          display: block;
+        }
+
+        .cn-nav {
+          display: none;
+          flex-direction: column;
+          position: fixed;
+          top: 70px;
+          left: 0;
+          right: 0;
+          bottom: auto;
+          padding: 1rem;
+          background: rgba(26, 26, 46, 0.95);
+          backdrop-filter: blur(10px);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          text-align: center;
+        }
+
+        .cn-nav.active {
+          display: flex;
+        }
+
+        .menu-toggle.active span:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .menu-toggle.active span:nth-child(2) {
+          opacity: 0;
+        }
+
+        .menu-toggle.active span:nth-child(3) {
+          transform: rotate(-45deg) translate(7px, -7px);
+        }
       }
     </style>
   </head>
@@ -351,11 +762,16 @@ layout: compress
   <body>
     <header class="cn-header">
       <a href="/" class="cn-logo">谢锦翔 Richard</a>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <nav class="cn-nav">
-        <a href="#about" class="cn-nav-link">关于我</a>
-        <a href="#life-logs" class="cn-nav-link">Life Logs</a>
-        <a href="#tags" class="cn-nav-link">标签</a>
-        <a href="{{ page.url | replace: '/zh/', '/' }}" class="cn-nav-link">EN</a>
+        <a href="#about" class="cn-nav-link micro-interaction">关于我</a>
+        <a href="#life-logs" class="cn-nav-link micro-interaction">Life Logs</a>
+        <a href="#tags" class="cn-nav-link micro-interaction">标签</a>
+        <a href="{{ page.url | replace: '/zh/', '/' }}" class="cn-nav-link lang-switch">EN</a>
       </nav>
     </header>
 
@@ -373,17 +789,21 @@ layout: compress
             <div class="cn-content">
               {{ content }}
             </div>
+            <a href="#life-logs" class="threed-button micro-interaction">了解更多</a>
           </div>
         </div>
+        <div class="scroll-indicator"></div>
       </section>
 
       <section id="life-logs" class="cn-section">
         <h2 class="cn-section-title">Life Logs</h2>
         <div class="paper-box">
           {% assign sorted_posts = site.posts | sort: 'date' %}
+          {% assign item_index = 0 %}
           {% for post in sorted_posts %}
             {% if post.categories contains 'life' %}
-              <div class="paper-box-text">
+              {% assign item_index = item_index | plus: 1 %}
+              <div class="paper-box-text" style="--item-index: {{ item_index }}">
                 <div class="paper-box-content">
                   <h2>{{ post.title }}</h2>
                   <p>{{ post.excerpt }}</p>
@@ -405,12 +825,66 @@ layout: compress
         <h2 class="cn-section-title">标签</h2>
         <div class="tags-cloud">
           {% for tag in site.tags %}
-            <a href="#{{ tag[0] }}" class="badge tag-badge">{{ tag[0] }} ({{ tag[1].size }})</a>
+            <a href="#{{ tag[0] }}" class="badge tag-badge micro-interaction">{{ tag[0] }} ({{ tag[1].size }})</a>
           {% endfor %}
         </div>
       </section>
     </main>
 
     {% include scripts.html %}
+    <script>
+      // 滚动检测
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector('.cn-header');
+        if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+        
+        // 元素可见性检测
+        const sections = document.querySelectorAll('.cn-section');
+        sections.forEach(section => {
+          const rect = section.getBoundingClientRect();
+          const isVisible = (rect.top <= window.innerHeight * 0.8);
+          if (isVisible) {
+            section.classList.add('visible');
+          }
+        });
+      });
+      
+      // 移动端菜单切换
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.cn-nav');
+      
+      if (menuToggle) {
+        menuToggle.addEventListener('click', function() {
+          this.classList.toggle('active');
+          nav.classList.toggle('active');
+        });
+      }
+      
+      // 平滑滚动
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          
+          if (nav.classList.contains('active')) {
+            menuToggle.classList.remove('active');
+            nav.classList.remove('active');
+          }
+          
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+      
+      // 初始化section可见性
+      setTimeout(() => {
+        const visibleSection = document.querySelector('#about');
+        if (visibleSection) visibleSection.classList.add('visible');
+      }, 100);
+    </script>
   </body>
 </html> 
