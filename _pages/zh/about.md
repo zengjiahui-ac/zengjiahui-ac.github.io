@@ -21,6 +21,6 @@ redirect_from:
 <div class="cn-section">
   <h1 class="cn-section-title">关于我</h1>
   
-  <p>你好！我是谢锦翔。我目前是<strong>北京交通大学</strong>信息与计算科学专业的大四学生。我现在在<strong>微软</strong>担任研究实习生，与首席研究员Justin Ding合作。此前，我很荣幸能在<strong>北京大学</strong>跟随万小军教授开展研究工作。</p>
-  
-  <p>我已获得南京大学2025年秋季研究生项目的录取，这为我进一步深入研究提供了宝贵的机会。<strong>我正在积极寻找大语言模型应用和自然语言处理方向的研究助理机会</strong>。</p>
+  <p>你好👋！我是谢锦翔，目前是<strong>北京交通大学</strong>信息与计算科学专业的大四学生，已获得<strong>南京大学</strong>2025年秋季研究生项目的录取。我曾在<strong>微软</strong>担任研究实习生，与MSRA首席研究员丁锐合作。此前，我很荣幸能在<strong>北京大学</strong>跟随万小军教授开展研究工作。</p>
+
+  <p>我的研究旨在弥合先进AI技术与产业应用的鸿沟，比如大语言模型（Large Language Model, LLM）在自动化文本分析中的应用，大型推理模型（Large Reasoning Model, LRM）在量化交易中应用，多模态大模型（Large Multimodal Model, LMM）在生物领域的应用等。人类的身体素质在自然界中并不起眼，只是因为人类有无穷的想象力，人类社会才去的长足发展。人类对自己的本质如此困惑，以至于现在希望用硅重塑自己。我认为，人工智能革命必须明确地以人为本。</p>
