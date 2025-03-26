@@ -30,7 +30,7 @@ redirect_from:
 
   <div class="about-section">
     <h3><i class="fas fa-flask"></i> 研究方向</h3>
-    <p>我的研究旨在弥合先进AI技术与产业应用的鸿沟，比如：</p>
+    <p>我的研究旨在用大模型处理复杂系统，弥合先进AI技术与产业应用的鸿沟，比如：</p>
     <ul class="research-list">
       <li>大语言模型（LLM）在自动化文本分析中的应用</li>
       <li>大型推理模型（LRM）在量化交易中的应用</li>
