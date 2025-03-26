@@ -412,9 +412,9 @@ layout: compress
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
           "image content"
-          "second-image content";
+          "second-image more-content";
         gap: 1.5rem 2.5rem;
-        align-items: center;
+        align-items: flex-start;
         margin-top: 1.5rem;
       }
 
@@ -707,9 +707,10 @@ layout: compress
           grid-template-columns: 1fr;
           grid-template-areas: 
             "image"
+            "content"
             "second-image"
-            "content";
-          gap: 2rem;
+            "more-content";
+          gap: 1.5rem;
         }
         
         .about-content {
@@ -892,26 +893,27 @@ layout: compress
                   <p>我的第一作者论文发表在AAAI等人工智能顶级会议上。</p>
 
                   <p>我正在积极寻找科研助理岗位和科研合作机会（现场/远程），欢迎通过邮件（jxTse AT outlook DOT com）或微信（jxtse_）联系我。</p>
-
+                </div>
+                
+                <div class="about-section">
+                  <h3><i class="fas fa-flask"></i> 研究方向</h3>
+                  <p>我的研究旨在用大模型处理复杂系统，弥合先进AI技术与产业应用的鸿沟，比如：</p>
+                  <ul class="research-list">
+                    <li>大语言模型（LLM）在自动化文本分析中的应用</li>
+                    <li>大型推理模型（LRM）在量化交易中的应用</li>
+                    <li>多模态大模型（MLLM）在生物领域的应用</li>
+                  </ul>
+                  
+                  <p>人类的身体素质在自然界中并不起眼，只是因为人类有无穷的想象力，人类社会才去的长足发展。人类对自己的本质如此困惑，以至于现在希望用硅重塑自己。我认为，<strong>人工智能革命必须明确地以人为本</strong>。</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="about-grid" style="margin-top: 0;">
-          <div class="about-content">
+          <div class="about-image" style="margin-top: 0; grid-area: second-image;">
+            <img src="https://jinxxie-1259409242.cos.ap-nanjing.myqcloud.com/PersonalProfile.jpg">
+          </div>
+          <div class="about-content" style="grid-area: more-content;">
             <div class="cn-content">
-              <div class="about-section" style="margin-top: 0;">
-                <h3><i class="fas fa-flask"></i> 研究方向</h3>
-                <p>我的研究旨在用大模型处理复杂系统，弥合先进AI技术与产业应用的鸿沟，比如：</p>
-                <ul class="research-list">
-                  <li>大语言模型（LLM）在自动化文本分析中的应用</li>
-                  <li>大型推理模型（LRM）在量化交易中的应用</li>
-                  <li>多模态大模型（MLLM）在生物领域的应用</li>
-                </ul>
-                
-                <p>人类的身体素质在自然界中并不起眼，只是因为人类有无穷的想象力，人类社会才去的长足发展。人类对自己的本质如此困惑，以至于现在希望用硅重塑自己。我认为，<strong>人工智能革命必须明确地以人为本</strong>。</p>
-              </div>
               <div class="about-section">
                 <h3><i class="fas fa-feather-alt"></i> 个人兴趣</h3>
                 <p>我对科技和人文抱有浓厚的兴趣。我在微信公众号、小红书和X进行内容创作，主要分享：</p>
@@ -924,9 +926,6 @@ layout: compress
                 <p>我喜欢旅行，已经走过32个省级行政区和7个国家，我的旅行、成长经历塑造了我如今的信仰和发展方向。我相信人会在变动里充满生机，迁徙与漂泊的另一面是寻找与流动。</p>
               </div>
             </div>
-          </div>
-          <div class="about-image" style="margin-top: 0;">
-            <img src="https://jinxxie-1259409242.cos.ap-nanjing.myqcloud.com/PersonalProfile.jpg">
           </div>
         </div>
       </section>
