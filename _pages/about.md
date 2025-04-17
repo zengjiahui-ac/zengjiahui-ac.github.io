@@ -32,7 +32,7 @@ Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
     <ul>
       <li>Research focus on LLMs and NLP</li>
       <li>Multiple internships at top institutions</li>
-      <li>Publication at AAAI 2025</li>
+      <li>Publication at AAAI, ACL</li>
     </ul>
   </div>
   
