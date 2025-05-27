@@ -28,7 +28,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiahui Zeng"
-  avatar           : "images/android-chrome-512x512.jpg"
+  avatar           : "images/avatar.jpg"
   bio              : "University of Tokyo"
   location         : "Tokyo, Japan"
   employer         :
@@ -43,21 +43,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jxtse"
+  github           : 
   google_plus      :
   keybase          :
-  instagram        : "richardtse_"
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  instagram        : 
+  impactstory      : 
   lastfm           :
-  linkedin         : "jinxiang-xie"
+  linkedin         : "Jiahui-Zeng"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0007-7948-5205"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "JinxiangTse"
+  twitter          : "Celinemedie"
   vine             :
   weibo            :
   xing             :
@@ -67,6 +67,7 @@ author:
 # 添加语言设置
 languages:
   - en
+  - jp
   - zh
 default_lang: "en"
 t:
@@ -76,15 +77,22 @@ t:
     news: "News"
     publications: "Publications"
     educations: "Educations"
-    internships: "Internships"
+    projects: "Projects"
     blogs: "Blogs"
   zh:
     home: "首页"
     about: "关于"
     publications: "发表论文"
     projects: "项目"
+    educations: "学历"
     contact: "联系方式"
-
+  jp:
+    home: "ホーム"
+    about: "自己紹介"
+    publications: "論文"
+    projects: "MISC"
+    contact: "連絡先"
+    
 # Reading Files
 include:
   - .htaccess
@@ -162,7 +170,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Tokyo
 
 
 # Plugins
