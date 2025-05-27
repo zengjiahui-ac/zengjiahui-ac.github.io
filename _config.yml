@@ -7,34 +7,34 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinxiang Xie"
+title                    : "Jiahui Zeng"
 title_separator          : "-"
 subtitle                 : 
-name                     : "Jinxiang Xie"
-description              : "Personal Website"
-url                     : "https://jxtse.github.io"
+name                     : "Jiahui Zeng"
+description              : "PhD student in Disability Studies and Social Policy, University of Tokyo"
+url                     : "https://zengjiahui-ac.github.io/"
 baseurl                 : ""
-repository               : "jxtse/jxtse.github.io"
-google_scholar_stats_use_cdn : true
+repository               : "zengjiahui-ac/zengjiahui-ac.github.io"
+google_scholar_stats_use_cdn : true  
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  googlea34440bfd0246b9e.html
+google_site_verification :  ""
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Jinxiang Xie"
+  name             : "Jiahui Zeng"
   avatar           : "images/android-chrome-512x512.jpg"
-  bio              : "Beijing Jiaotong University"
-  location         : "Beijing, China"
+  bio              : "University of Tokyo"
+  location         : "Tokyo, Japan"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=00fFhxQAAAAJ"
-  email            : "jxTse@outlook.com"
+  googlescholar    : 
+  email            : "jhzeng96@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
