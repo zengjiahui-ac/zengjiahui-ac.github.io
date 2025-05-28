@@ -19,17 +19,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jiahui Zeng. I'm a PhD student at the University of Tokyo, focusing on employment and personal assistance policies for people with disabilities.
+Hi! My name is Jiahui Zeng. I'm a PhD student at the University of Tokyo. My research focuses on employment and personal assistance policies for people with disabilities. Below are some of my academic interests.
 
 Feel free to reach out, or learn more from [my CV](assets/jiahui_cv.pdf).
 
 <div class="highlight-blocks">
   <div class="highlight-block">
-    <h3>🔬 Policy Researcher </h3>
+    <h3>💼 Disability & Work </h3>
     <ul>
-      <li>Focus on workplace personal assistance service (WPAS)</li>
-      <li>Conducted literature review for WPAS cross the world </li>
-      <li>Conducting case study for WPAS in Jpan</li>
+      <li>Researching workplace personal assistance services (WPAS)</li>
+      <li>Conducted a global literature review on WPAS systems </li>
+      <li>Currently conducting an in-depth case study on WPAS implementation in Japan </li>
     </ul>
   </div>
   
