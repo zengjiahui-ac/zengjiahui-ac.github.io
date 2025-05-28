@@ -34,19 +34,19 @@ Feel free to reach out, or learn more from [my CV](assets/jiahui_cv.pdf).
   </div>
   
   <div class="highlight-block">
-    <h3>✍️ Content Creator</h3>
+    <h3>✍️ Disability & Care </h3>
     <ul>
-      <li>Technical blogs with 500K+ views</li>
-      <li>Active on <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e">Xiaohongshu</a></li>
-      <li>Growing <a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ">WeChat Public Account</a> on Tech & Humanities</li>
+      <li>A wheelchair user who requires daily personal care support</li>
+      <li>Sharing insights from lived experiences as a wheelchair user</li>
+      <li>Hosting a podcast on the sociology of care and interdependence</li>
     </ul>
   </div>
   
   <div class="highlight-block">
-    <h3>🌎 Life Explorer</h3>
+    <h3>🌎 Disability & Travel </h3>
     <ul>
-      <li>Visited 7 countries worldwide</li>
-      <li>Traveled to 32 provinces in China</li>
+      <li>Rich experience in accessible travel</li>
+      <li>Sharing information</li>
       <li>Rich experience in social work & activities</li>
     </ul>
   </div>
