@@ -19,12 +19,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jinxiang Xie (pronounced as "JIN-shee-ahng SHEE-eh"). I'm a fourth-year undergraduate student majoring in Information and Computing Science at <i class="fas fa-university"></i> **Beijing Jiaotong University**. I am currently a research intern at <i class="fab fa-microsoft"></i> **Microsoft** working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/">Justin Ding</a>.
-Previously, I was honored to conduct research at <i class="fas fa-university"></i> **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/">Xiaojun Wan</a>.
+Hi! My name is Jiahui Zeng. I'm a PhD student at the University of Tokyo, focusing on employment and personal assistance policies for people with disabilities.
 
-I have been offered admission to the graduate program at Nanjing University for Fall 2025, providing me with a valuable window to further immerse myself in research. **I am actively seeking research assistant opportunities in LLMs applications and natural language processing**.
-
-Feel free to reach out, or learn more from [My CV](assets/Jinxiang's CV.pdf).
+Feel free to reach out, or learn more from [my CV](assets/jiahui_cv.pdf).
 
 <div class="highlight-blocks">
   <div class="highlight-block">
