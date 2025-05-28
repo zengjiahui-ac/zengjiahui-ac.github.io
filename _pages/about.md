@@ -25,11 +25,11 @@ Feel free to reach out, or learn more from [my CV](assets/jiahui_cv.pdf).
 
 <div class="highlight-blocks">
   <div class="highlight-block">
-    <h3>🔬 AI Researcher</h3>
+    <h3>🔬 Policy Researcher </h3>
     <ul>
-      <li>Research focus on LLMs and NLP</li>
-      <li>Multiple internships at top institutions</li>
-      <li>Publication at AAAI, ACL</li>
+      <li>Focus on workplace personal assistance service (WPAS)</li>
+      <li>Conducted literature review for WPAS cross the world </li>
+      <li>Conducting case study for WPAS in Jpan</li>
     </ul>
   </div>
   
