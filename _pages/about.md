@@ -45,9 +45,9 @@ Feel free to reach out, or learn more from [my CV](assets/jiahui_cv.pdf).
   <div class="highlight-block">
     <h3>🌎 Disability & Travel </h3>
     <ul>
-      <li>Rich experience in accessible travel</li>
-      <li>Sharing information</li>
-      <li>Rich experience in social work & activities</li>
+      <li>Extensive experience in accessible travel</li>
+      <li>Sharing tips and resources about accessible transportation and accommodation on social media</li>
+      <li>Co-authored an accessible travel guidebook with an adovacy organization</li>
     </ul>
   </div>
 </div>
