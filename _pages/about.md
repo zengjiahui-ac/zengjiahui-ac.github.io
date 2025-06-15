@@ -52,10 +52,10 @@ Feel free to reach out, or learn more from [my CV](assets/jiahui_cv.pdf).
   </div>
 </div>
 
-# 🔥 News
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). See you in Philadelphia!
-- *2024.09*: &nbsp;I was admitted to the 25 Fall graduate program at Kuang Yaming Honors School, Nanjing University.
-- *2024.08*: &nbsp;I have joined Microsoft as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
+# 🧭 Recent & Ongoing Work
+- *2025.07*: &nbsp; My research on Japan's reform of workplace personal assistance services system has been accepted by and will be presented at the 2025 European Disability Research Conference (ALTER 2025). See you in Innsbruck!
+- *2025.05*: &nbsp; I have completed the draft of my review paper on workplace personal assistance (2010-2024), which is currently under submission to a journal. 
+
 
 # 📝 Publications 
 
